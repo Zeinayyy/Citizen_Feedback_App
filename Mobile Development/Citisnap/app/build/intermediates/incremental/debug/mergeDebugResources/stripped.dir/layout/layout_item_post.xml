@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    style="@style/card"
+    app:cardCornerRadius="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/profileInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/profileImage">
+
+                <TextView
+                    android:id="@+id/name"
+                    style="@style/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/full_name"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name"
+                    android:fontFamily="@font/poppins"
+                    android:text="24 minutes ago"
+                    android:textSize="11sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageCard"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileInfo">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/post_image"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            style="@style/text"
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="asdsadasdasda"
+            app:layout_constraintBottom_toTopOf="@+id/icon_group"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageCard" />
+
+        <RelativeLayout
+            android:id="@+id/icon_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <RelativeLayout
+                android:id="@+id/actionUpLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp">
+
+                <ImageView
+                    android:id="@+id/actionUp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:contentDescription="@null"
+                    android:focusable="true"
+                    android:src="@drawable/arrow_up" />
+
+                <TextView
+                    style="@style/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/actionUp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="2"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/actionDown"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@id/actionUpLayout"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:focusable="true"
+                android:src="@drawable/arrow_down" />
+
+            <ImageView
+                android:id="@+id/comment"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@id/actionDown"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:focusable="true"
+                android:src="@drawable/comment" />
+
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_add.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/add.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_email.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/email.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/layout_activity_register.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/layout_fragment_home.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/font_poppins_semi.ttf.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/font/poppins_semi.ttf"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/font_poppins_medium.ttf.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/font/poppins_medium.ttf"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_button_background.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_bot_navigation_dark.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/bot_navigation_dark.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_bookmark.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/bookmark.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/xml_data_extraction_rules.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/layout_fragment_notifications.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/layout_fragment_search.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/layout_activity_login.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_profil.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/profil.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_arrow_down.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/arrow_down.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/layout_activity_splash_screen.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_arrow_up.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/arrow_up.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/layout_layout_item_post.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/layout/layout_item_post.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/layout_fragment_profil.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/layout/fragment_profil.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_lock.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/lock.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/font_roboto.ttf.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/font/roboto.ttf"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_logo.png.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/logo.png"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_notification.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/notification.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_comment.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/comment.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/layout_activity_main.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_person.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/person.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/xml_backup_rules.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/layout_activity_add_post.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/layout/activity_add_post.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/navigation_mobile_navigation.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_bot_navigation.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/bot_navigation.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_home.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/home.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/drawable_search.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/drawable/search.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-53:/font_poppins.ttf.flat",
+        "source": "com.bangkit.citisnap.app-main-55:/font/poppins.ttf"
+    }
+]
