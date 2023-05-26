@@ -45,12 +45,12 @@ com.bangkit.citisnap.app-window-1.0.0-43 C:\Users\Iftah\.gradle\caches\transform
 com.bangkit.citisnap.app-savedstate-1.2.0-44 C:\Users\Iftah\.gradle\caches\transforms-3\fca895ed94a8f6689778747d3ed4e035\transformed\savedstate-1.2.0\res
 com.bangkit.citisnap.app-core-1.10.1-45 C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\res
 com.bangkit.citisnap.app-transition-1.4.1-46 C:\Users\Iftah\.gradle\caches\transforms-3\ffd0500e86710a1c10faa8c21a657364\transformed\transition-1.4.1\res
-com.bangkit.citisnap.app-google-services-47 C:\Users\Iftah\Desktop\Study\Citisnap\app\build\generated\res\google-services\debug
-com.bangkit.citisnap.app-pngs-48 C:\Users\Iftah\Desktop\Study\Citisnap\app\build\generated\res\pngs\debug
-com.bangkit.citisnap.app-resValues-49 C:\Users\Iftah\Desktop\Study\Citisnap\app\build\generated\res\resValues\debug
-com.bangkit.citisnap.app-rs-50 C:\Users\Iftah\Desktop\Study\Citisnap\app\build\generated\res\rs\debug
-com.bangkit.citisnap.app-packageDebugResources-51 C:\Users\Iftah\Desktop\Study\Citisnap\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.bangkit.citisnap.app-packageDebugResources-52 C:\Users\Iftah\Desktop\Study\Citisnap\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.bangkit.citisnap.app-merged_res-53 C:\Users\Iftah\Desktop\Study\Citisnap\app\build\intermediates\merged_res\debug
-com.bangkit.citisnap.app-debug-54 C:\Users\Iftah\Desktop\Study\Citisnap\app\src\debug\res
-com.bangkit.citisnap.app-main-55 C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\res
+com.bangkit.citisnap.app-google-services-47 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\google-services\debug
+com.bangkit.citisnap.app-pngs-48 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\pngs\debug
+com.bangkit.citisnap.app-resValues-49 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\resValues\debug
+com.bangkit.citisnap.app-rs-50 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\rs\debug
+com.bangkit.citisnap.app-packageDebugResources-51 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.bangkit.citisnap.app-packageDebugResources-52 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.bangkit.citisnap.app-merged_res-53 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\intermediates\merged_res\debug
+com.bangkit.citisnap.app-debug-54 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\debug\res
+com.bangkit.citisnap.app-main-55 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\res

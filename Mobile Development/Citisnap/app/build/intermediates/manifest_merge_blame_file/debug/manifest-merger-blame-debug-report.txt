@@ -6,13 +6,13 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml
+8-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml
+9-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 12-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:26:5-79
 12-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:26:22-76
@@ -29,65 +29,65 @@
 18-->[androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:7:5-33:19
+20-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:7:5-33:19
 21        android:allowBackup="true"
-21-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:8:9-35
+21-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:8:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:9:9-65
+23-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:9:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:10:9-54
+26-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:10:9-54
 27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:11:9-43
+27-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:11:9-43
 28        android:label="@string/app_name"
-28-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:12:9-41
+28-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:12:9-41
 29        android:supportsRtl="true"
-29-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:13:9-35
+29-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:13:9-35
 30        android:testOnly="true"
 31        android:theme="@style/Theme.Citisnap" >
-31-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:14:9-46
+31-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:14:9-46
 32        <activity
-32-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:16:9-17:39
+32-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:16:9-17:39
 33            android:name="com.bangkit.citisnap.AddPostActivity"
-33-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:16:19-50
+33-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:16:19-50
 34            android:exported="false" />
-34-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:17:13-37
+34-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:17:13-37
 35        <activity
-35-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:18:9-19:39
+35-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:18:9-19:39
 36            android:name="com.bangkit.citisnap.LoginActivity"
-36-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:18:19-48
+36-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:18:19-48
 37            android:exported="false" />
-37-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:19:13-37
+37-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:19:13-37
 38        <activity
-38-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:20:9-21:39
+38-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:20:9-21:39
 39            android:name="com.bangkit.citisnap.RegisterActivity"
-39-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:20:19-51
+39-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:20:19-51
 40            android:exported="false" />
-40-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:21:13-37
+40-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:21:13-37
 41        <activity
-41-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:22:9-23:39
+41-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:22:9-23:39
 42            android:name="com.bangkit.citisnap.MainActivity"
-42-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:22:19-47
+42-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:22:19-47
 43            android:exported="false" />
-43-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:23:13-37
+43-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:23:13-37
 44        <activity
-44-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:24:9-32:20
+44-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:24:9-32:20
 45            android:name="com.bangkit.citisnap.SplashScreenActivity"
-45-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:25:13-49
+45-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:25:13-49
 46            android:exported="true" >
-46-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:26:13-36
+46-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:26:13-36
 47            <intent-filter>
-47-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:27:13-31:29
+47-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:27:13-31:29
 48                <action android:name="android.intent.action.MAIN" />
-48-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:28:17-69
-48-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:28:25-66
+48-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:28:17-69
+48-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:28:25-66
 49
 50                <category android:name="android.intent.category.LAUNCHER" />
-50-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:30:17-77
-50-->C:\Users\Iftah\Desktop\Study\Citisnap\app\src\main\AndroidManifest.xml:30:27-74
+50-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:30:17-77
+50-->C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:30:27-74
 51            </intent-filter>
 52        </activity>
 53

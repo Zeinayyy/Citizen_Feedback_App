@@ -4,7 +4,7 @@
             "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-51:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Iftah\\Desktop\\Study\\Citisnap\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2,30,34,16,43,39,22,26",
                         "startColumns": "4,4,4,4,4,4,4,4",
