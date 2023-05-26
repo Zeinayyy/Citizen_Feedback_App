@@ -1,4 +1,4 @@
-const { indexHandler } = require("../handlers");
+const { indexHandler } = require("./handlers");
 
 const routes = [
     {
