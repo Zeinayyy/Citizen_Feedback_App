@@ -5,9 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,55 +30,32 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextInputLayout emailLayout;
 
   @NonNull
-  public final LinearLayout linearLayout2;
-
-  @NonNull
-  public final LinearLayout linearLayout3;
-
-  @NonNull
-  public final TextView login;
-
-  @NonNull
-  public final RelativeLayout logo;
-
-  @NonNull
-  public final ImageView logoImg;
-
-  @NonNull
-  public final TextInputEditText name;
-
-  @NonNull
-  public final TextInputLayout nameLayout;
-
-  @NonNull
   public final TextInputEditText password;
 
   @NonNull
   public final TextInputLayout passwordLayout;
 
   @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final Button register;
+
+  @NonNull
+  public final TextView title;
 
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextInputEditText email, @NonNull TextInputLayout emailLayout,
-      @NonNull LinearLayout linearLayout2, @NonNull LinearLayout linearLayout3,
-      @NonNull TextView login, @NonNull RelativeLayout logo, @NonNull ImageView logoImg,
-      @NonNull TextInputEditText name, @NonNull TextInputLayout nameLayout,
       @NonNull TextInputEditText password, @NonNull TextInputLayout passwordLayout,
-      @NonNull Button register) {
+      @NonNull ProgressBar progressBar, @NonNull Button register, @NonNull TextView title) {
     this.rootView = rootView;
     this.email = email;
     this.emailLayout = emailLayout;
-    this.linearLayout2 = linearLayout2;
-    this.linearLayout3 = linearLayout3;
-    this.login = login;
-    this.logo = logo;
-    this.logoImg = logoImg;
-    this.name = name;
-    this.nameLayout = nameLayout;
     this.password = password;
     this.passwordLayout = passwordLayout;
+    this.progressBar = progressBar;
     this.register = register;
+    this.title = title;
   }
 
   @Override
@@ -122,48 +97,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.linearLayout2;
-      LinearLayout linearLayout2 = ViewBindings.findChildViewById(rootView, id);
-      if (linearLayout2 == null) {
-        break missingId;
-      }
-
-      id = R.id.linearLayout3;
-      LinearLayout linearLayout3 = ViewBindings.findChildViewById(rootView, id);
-      if (linearLayout3 == null) {
-        break missingId;
-      }
-
-      id = R.id.login;
-      TextView login = ViewBindings.findChildViewById(rootView, id);
-      if (login == null) {
-        break missingId;
-      }
-
-      id = R.id.logo;
-      RelativeLayout logo = ViewBindings.findChildViewById(rootView, id);
-      if (logo == null) {
-        break missingId;
-      }
-
-      id = R.id.logoImg;
-      ImageView logoImg = ViewBindings.findChildViewById(rootView, id);
-      if (logoImg == null) {
-        break missingId;
-      }
-
-      id = R.id.name;
-      TextInputEditText name = ViewBindings.findChildViewById(rootView, id);
-      if (name == null) {
-        break missingId;
-      }
-
-      id = R.id.nameLayout;
-      TextInputLayout nameLayout = ViewBindings.findChildViewById(rootView, id);
-      if (nameLayout == null) {
-        break missingId;
-      }
-
       id = R.id.password;
       TextInputEditText password = ViewBindings.findChildViewById(rootView, id);
       if (password == null) {
@@ -176,15 +109,26 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       id = R.id.register;
       Button register = ViewBindings.findChildViewById(rootView, id);
       if (register == null) {
         break missingId;
       }
 
-      return new ActivityRegisterBinding((ConstraintLayout) rootView, email, emailLayout,
-          linearLayout2, linearLayout3, login, logo, logoImg, name, nameLayout, password,
-          passwordLayout, register);
+      id = R.id.title;
+      TextView title = ViewBindings.findChildViewById(rootView, id);
+      if (title == null) {
+        break missingId;
+      }
+
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, email, emailLayout, password,
+          passwordLayout, progressBar, register, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

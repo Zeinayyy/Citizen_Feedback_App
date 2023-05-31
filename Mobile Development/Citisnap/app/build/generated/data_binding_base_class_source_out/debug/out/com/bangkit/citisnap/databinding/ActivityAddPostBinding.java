@@ -4,20 +4,61 @@ package com.bangkit.citisnap.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.bangkit.citisnap.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityAddPostBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityAddPostBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final ImageView back;
+
+  @NonNull
+  public final ImageView camera;
+
+  @NonNull
+  public final CardView cardView;
+
+  @NonNull
+  public final ImageView gallery;
+
+  @NonNull
+  public final ImageView location;
+
+  @NonNull
+  public final ImageView photo;
+
+  @NonNull
+  public final CircleImageView photoProfile;
+
+  @NonNull
+  public final RelativeLayout relativeLayout2;
+
+  private ActivityAddPostBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView back,
+      @NonNull ImageView camera, @NonNull CardView cardView, @NonNull ImageView gallery,
+      @NonNull ImageView location, @NonNull ImageView photo, @NonNull CircleImageView photoProfile,
+      @NonNull RelativeLayout relativeLayout2) {
     this.rootView = rootView;
+    this.back = back;
+    this.camera = camera;
+    this.cardView = cardView;
+    this.gallery = gallery;
+    this.location = location;
+    this.photo = photo;
+    this.photoProfile = photoProfile;
+    this.relativeLayout2 = relativeLayout2;
   }
 
   @Override
@@ -43,10 +84,62 @@ public final class ActivityAddPostBinding implements ViewBinding {
 
   @NonNull
   public static ActivityAddPostBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.back;
+      ImageView back = ViewBindings.findChildViewById(rootView, id);
+      if (back == null) {
+        break missingId;
+      }
 
-    return new ActivityAddPostBinding((ConstraintLayout) rootView);
+      id = R.id.camera;
+      ImageView camera = ViewBindings.findChildViewById(rootView, id);
+      if (camera == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView;
+      CardView cardView = ViewBindings.findChildViewById(rootView, id);
+      if (cardView == null) {
+        break missingId;
+      }
+
+      id = R.id.gallery;
+      ImageView gallery = ViewBindings.findChildViewById(rootView, id);
+      if (gallery == null) {
+        break missingId;
+      }
+
+      id = R.id.location;
+      ImageView location = ViewBindings.findChildViewById(rootView, id);
+      if (location == null) {
+        break missingId;
+      }
+
+      id = R.id.photo;
+      ImageView photo = ViewBindings.findChildViewById(rootView, id);
+      if (photo == null) {
+        break missingId;
+      }
+
+      id = R.id.photoProfile;
+      CircleImageView photoProfile = ViewBindings.findChildViewById(rootView, id);
+      if (photoProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.relativeLayout2;
+      RelativeLayout relativeLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout2 == null) {
+        break missingId;
+      }
+
+      return new ActivityAddPostBinding((ConstraintLayout) rootView, back, camera, cardView,
+          gallery, location, photo, photoProfile, relativeLayout2);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

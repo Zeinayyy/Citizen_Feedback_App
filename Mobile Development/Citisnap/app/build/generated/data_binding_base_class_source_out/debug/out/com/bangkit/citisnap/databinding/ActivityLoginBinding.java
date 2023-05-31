@@ -5,9 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,9 +30,6 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextInputLayout emailLayout;
 
   @NonNull
-  public final Button googleSignIn;
-
-  @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
@@ -42,12 +37,6 @@ public final class ActivityLoginBinding implements ViewBinding {
 
   @NonNull
   public final Button login;
-
-  @NonNull
-  public final RelativeLayout logo;
-
-  @NonNull
-  public final ImageView logoImg;
 
   @NonNull
   public final TextInputEditText password;
@@ -59,27 +48,23 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextView register;
 
   @NonNull
-  public final TextView textView;
+  public final TextView title;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull TextInputEditText email,
-      @NonNull TextInputLayout emailLayout, @NonNull Button googleSignIn,
-      @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout2,
-      @NonNull Button login, @NonNull RelativeLayout logo, @NonNull ImageView logoImg,
+      @NonNull TextInputLayout emailLayout, @NonNull LinearLayout linearLayout,
+      @NonNull LinearLayout linearLayout2, @NonNull Button login,
       @NonNull TextInputEditText password, @NonNull TextInputLayout passwordLayout,
-      @NonNull TextView register, @NonNull TextView textView) {
+      @NonNull TextView register, @NonNull TextView title) {
     this.rootView = rootView;
     this.email = email;
     this.emailLayout = emailLayout;
-    this.googleSignIn = googleSignIn;
     this.linearLayout = linearLayout;
     this.linearLayout2 = linearLayout2;
     this.login = login;
-    this.logo = logo;
-    this.logoImg = logoImg;
     this.password = password;
     this.passwordLayout = passwordLayout;
     this.register = register;
-    this.textView = textView;
+    this.title = title;
   }
 
   @Override
@@ -121,12 +106,6 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.googleSignIn;
-      Button googleSignIn = ViewBindings.findChildViewById(rootView, id);
-      if (googleSignIn == null) {
-        break missingId;
-      }
-
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
@@ -142,18 +121,6 @@ public final class ActivityLoginBinding implements ViewBinding {
       id = R.id.login;
       Button login = ViewBindings.findChildViewById(rootView, id);
       if (login == null) {
-        break missingId;
-      }
-
-      id = R.id.logo;
-      RelativeLayout logo = ViewBindings.findChildViewById(rootView, id);
-      if (logo == null) {
-        break missingId;
-      }
-
-      id = R.id.logoImg;
-      ImageView logoImg = ViewBindings.findChildViewById(rootView, id);
-      if (logoImg == null) {
         break missingId;
       }
 
@@ -175,15 +142,14 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.title;
+      TextView title = ViewBindings.findChildViewById(rootView, id);
+      if (title == null) {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, email, emailLayout, googleSignIn,
-          linearLayout, linearLayout2, login, logo, logoImg, password, passwordLayout, register,
-          textView);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, email, emailLayout, linearLayout,
+          linearLayout2, login, password, passwordLayout, register, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

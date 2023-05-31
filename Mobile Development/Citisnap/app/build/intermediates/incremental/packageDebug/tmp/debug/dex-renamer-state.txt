@@ -1,8 +1,16 @@
+<<<<<<< Updated upstream
 #Fri May 26 17:45:39 ICT 2023
 path.4=5/classes.dex
 path.3=classes2.dex
+=======
+#Wed May 31 15:46:35 ICT 2023
+path.4=5/classes.dex
+path.3=3/classes.dex
+>>>>>>> Stashed changes
 path.2=14/classes.dex
+renamed.9=classes10.dex
 path.1=0/classes.dex
+<<<<<<< Updated upstream
 path.5=7/classes.dex
 path.0=classes.dex
 base.4=C\:\\Users\\Iftah\\Desktop\\Study\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
@@ -10,10 +18,39 @@ base.3=C\:\\Users\\Iftah\\Desktop\\Study\\Citisnap\\app\\build\\intermediates\\d
 base.2=C\:\\Users\\Iftah\\Desktop\\Study\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
 base.1=C\:\\Users\\Iftah\\Desktop\\Study\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.0=C\:\\Users\\Iftah\\Desktop\\Study\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+=======
+renamed.8=classes9.dex
+path.8=4/classes.dex
+path.7=classes3.dex
+path.6=classes2.dex
+path.5=6/classes.dex
+renamed.10=classes11.dex
+path.0=classes.dex
+base.4=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.3=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.2=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.1=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+>>>>>>> Stashed changes
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.10=8/classes.dex
 renamed.0=classes.dex
+<<<<<<< Updated upstream
 renamed.5=classes6.dex
 renamed.4=classes5.dex
 base.5=C\:\\Users\\Iftah\\Desktop\\Study\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+=======
+base.9=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+path.9=7/classes.dex
+renamed.7=classes8.dex
+base.8=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+renamed.6=classes7.dex
+base.7=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+renamed.5=classes6.dex
+base.6=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+renamed.4=classes5.dex
+base.5=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.10=C\:\\Users\\Iftah\\Desktop\\Study\\Citizen_Feedback_App\\Mobile Development\\Citisnap\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+>>>>>>> Stashed changes

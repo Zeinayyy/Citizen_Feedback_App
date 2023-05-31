@@ -30,19 +30,22 @@
         android:testOnly="true"
         android:theme="@style/Theme.Citisnap" >
         <activity
+            android:name="com.bangkit.citisnap.ui.register.UsernameRegisterActivity"
+            android:exported="false" />
+        <activity
             android:name="com.bangkit.citisnap.AddPostActivity"
             android:exported="false" />
         <activity
-            android:name="com.bangkit.citisnap.LoginActivity"
+            android:name="com.bangkit.citisnap.ui.login.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.bangkit.citisnap.RegisterActivity"
+            android:name="com.bangkit.citisnap.ui.register.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name="com.bangkit.citisnap.MainActivity"
+            android:name="com.bangkit.citisnap.ui.main.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.bangkit.citisnap.SplashScreenActivity"
+            android:name="com.bangkit.citisnap.ui.splashscreen.SplashScreenActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -62,7 +65,13 @@
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 

@@ -30,20 +30,20 @@ public final class ActivityMainBinding implements ViewBinding {
   public final BottomNavigationView navView;
 
   @NonNull
-  public final BottomNavigationView navViewLogin;
-
-  @NonNull
   public final Button register;
 
+  @NonNull
+  public final RelativeLayout relativeLayout;
+
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull RelativeLayout container,
-      @NonNull Button login, @NonNull BottomNavigationView navView,
-      @NonNull BottomNavigationView navViewLogin, @NonNull Button register) {
+      @NonNull Button login, @NonNull BottomNavigationView navView, @NonNull Button register,
+      @NonNull RelativeLayout relativeLayout) {
     this.rootView = rootView;
     this.container = container;
     this.login = login;
     this.navView = navView;
-    this.navViewLogin = navViewLogin;
     this.register = register;
+    this.relativeLayout = relativeLayout;
   }
 
   @Override
@@ -87,20 +87,20 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.nav_view_login;
-      BottomNavigationView navViewLogin = ViewBindings.findChildViewById(rootView, id);
-      if (navViewLogin == null) {
-        break missingId;
-      }
-
       id = R.id.register;
       Button register = ViewBindings.findChildViewById(rootView, id);
       if (register == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((RelativeLayout) rootView, container, login, navView,
-          navViewLogin, register);
+      id = R.id.relativeLayout;
+      RelativeLayout relativeLayout = ViewBindings.findChildViewById(rootView, id);
+      if (relativeLayout == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((RelativeLayout) rootView, container, login, navView, register,
+          relativeLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
