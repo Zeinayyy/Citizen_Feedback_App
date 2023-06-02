@@ -2,22 +2,28 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="black_primary">#2A2E31</color>
+    <color name="dark">#474D52</color>
     <color name="gray">#808080</color>
     <color name="gray_light">#F5F5F5</color>
-    <color name="orange">#EFB558</color>
+    <color name="gray_medium">#CCCCCC</color>
+    <color name="orange">#FFA500</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
+    <color name="search_bar">#E0DFDF</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="add_post">Add Post</string>
     <string name="app_name">Citisnap</string>
+    <string name="back_button">Back Button</string>
+    <string name="camera">Camera</string>
     <string name="default_web_client_id" translatable="false">997554449072-plmt6mdj9p3irqt2m01mh6fjuqehr5le.apps.googleusercontent.com</string>
     <string name="email">Email</string>
     <string name="email_error">Email is not allowed to be empty</string>
     <string name="empty_pass_error">Password not allowed to be empty</string>
     <string name="error_login">Invalid email or password</string>
+    <string name="filter">Filter</string>
     <string name="forget_password">Forget Password?</string>
     <string name="full_name">Full Name</string>
     <string name="gcm_defaultSenderId" translatable="false">997554449072</string>
@@ -26,23 +32,34 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnvaC-ZBJhQWHh5CVu8xx2dao1GeGlolE</string>
     <string name="google_storage_bucket" translatable="false">c23-pc676-capstone-project.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_post">Tell us something!</string>
     <string name="home">Home</string>
     <string name="login">Login</string>
     <string name="login_to_register">Don\'t have an account?</string>
     <string name="logo">logo</string>
+    <string name="name_error">Name is not allowed to be empty</string>
+    <string name="next">Next</string>
     <string name="notifications">Notifications</string>
     <string name="or_sign_in_with">or sign in with</string>
     <string name="password">Password</string>
+    <string name="password_long">Password must be at least 8 characters long</string>
+    <string name="post">Post</string>
     <string name="post_image">Post Image</string>
-    <string name="profil">Profil</string>
-    <string name="profil_picture">Profil Picture</string>
+    <string name="profil">Profile</string>
+    <string name="profil_picture">Profile Picture</string>
+    <string name="profile_pict"><![CDATA[https://firebasestorage.googleapis.com/v0/b/c23-pc676-capstone-project.appspot.com/o/profile_picture.png?alt=media&token=7fdc2193-9de5-4ad1-a312-0304541d6ebd]]></string>
     <string name="project_id" translatable="false">c23-pc676-capstone-project</string>
     <string name="register">Register</string>
     <string name="register_to_login">Already have an account?</string>
     <string name="search">Search</string>
+    <string name="sign_in">Sign In</string>
     <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_up">Sign Up</string>
     <string name="tagline">Contribute to a better change</string>
     <string name="tagline_2">Express Your Aspirations and Complaints</string>
+    <string name="username">Username</string>
+    <string name="username_already_exist">Username already exist</string>
+    <string name="username_error">Username not allowed to be empty</string>
     <style name="Theme.Citisnap" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/orange</item>
@@ -58,6 +75,9 @@
     </style>
     <style name="background">
         <item name="android:background">@color/gray_light</item>
+    </style>
+    <style name="backgroundTint">
+        <item name="android:backgroundTint">@color/black</item>
     </style>
     <style name="bottom_navigation">
         <item name="android:background">@drawable/bot_navigation</item>
@@ -82,6 +102,9 @@
     </style>
     <style name="card">
         <item name="android:backgroundTint">@color/white</item>
+    </style>
+    <style name="card_secondary">
+        <item name="android:backgroundTint">@color/gray_medium</item>
     </style>
     <style name="divider">
         <item name="android:background">@color/black</item>

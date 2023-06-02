@@ -12,18 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:visibility="gone"
         app:labelVisibilityMode="unlabeled"
-        app:menu="@menu/bottom_nav_menu" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/nav_view_login"
-        style="@style/bottom_navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true">
+        app:menu="@menu/bottom_nav_menu" >
 
         <RelativeLayout
+            android:id="@+id/relativeLayout"
+            style="@style/bottom_navigation"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -57,7 +51,6 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/nav_view"
         app:defaultNavHost="true"
-        app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
         app:navGraph="@navigation/mobile_navigation" />
 
 

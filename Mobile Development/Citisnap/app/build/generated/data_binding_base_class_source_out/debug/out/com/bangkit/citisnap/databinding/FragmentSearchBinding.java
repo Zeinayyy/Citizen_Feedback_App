@@ -4,25 +4,38 @@ package com.bangkit.citisnap.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.bangkit.citisnap.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentSearchBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final CoordinatorLayout rootView;
 
-  private FragmentSearchBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final RecyclerView recycle;
+
+  @NonNull
+  public final EditText search;
+
+  private FragmentSearchBinding(@NonNull CoordinatorLayout rootView, @NonNull RecyclerView recycle,
+      @NonNull EditText search) {
     this.rootView = rootView;
+    this.recycle = recycle;
+    this.search = search;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public CoordinatorLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +56,25 @@ public final class FragmentSearchBinding implements ViewBinding {
 
   @NonNull
   public static FragmentSearchBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.recycle;
+      RecyclerView recycle = ViewBindings.findChildViewById(rootView, id);
+      if (recycle == null) {
+        break missingId;
+      }
 
-    return new FragmentSearchBinding((FrameLayout) rootView);
+      id = R.id.search;
+      EditText search = ViewBindings.findChildViewById(rootView, id);
+      if (search == null) {
+        break missingId;
+      }
+
+      return new FragmentSearchBinding((CoordinatorLayout) rootView, recycle, search);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

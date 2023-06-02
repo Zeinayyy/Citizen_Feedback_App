@@ -4,91 +4,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:id="@+id/logo"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/title"
+        style="@style/text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:alpha="0"
+        android:fontFamily="@font/poppins_semi"
+        android:text="@string/tagline"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/logoImg"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/logo"
-            android:src="@drawable/logo" />
-
-        <TextView
-            style="@style/text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_toEndOf="@id/logoImg"
-            android:fontFamily="@font/poppins_medium"
-            android:text="@string/app_name"
-            android:textSize="20sp" />
-    </RelativeLayout>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:alpha="0"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo">
+        app:layout_constraintTop_toBottomOf="@+id/title">
 
         <TextView
-            android:id="@+id/textView"
             style="@style/text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_semi"
-            android:text="@string/tagline"
-            android:textAlignment="center"
-            android:textSize="30sp" />
-
-        <Button
-            style="@style/button_google"
-            android:id="@+id/googleSignIn"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/roboto"
-            android:textStyle="bold"
-            android:text="@string/sign_in_with_google"
-            android:textAllCaps="false"
-            android:drawableLeft="@drawable/googleg_standard_color_18"/>
-
-        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
-
-            <View
-                style="@style/divider"
-                android:layout_width="120dp"
-                android:layout_height="1dp"
-                android:layout_margin="20dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins"
-                android:text="@string/or_sign_in_with"
-                android:textColor="@color/gray" />
-
-            <View
-                style="@style/divider"
-                android:layout_width="120dp"
-                android:layout_height="1dp"
-                android:layout_margin="20dp" />
-        </LinearLayout>
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_semi"
+            android:text="@string/sign_in"
+            android:textSize="30sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/emailLayout"
@@ -107,7 +58,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/email"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -141,7 +93,7 @@
             style="@style/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/roboto"
             android:text="@string/forget_password" />
     </LinearLayout>
@@ -151,6 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:alpha="0"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

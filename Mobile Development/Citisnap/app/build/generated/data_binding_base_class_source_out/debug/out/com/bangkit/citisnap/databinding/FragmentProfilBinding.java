@@ -5,31 +5,41 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.bangkit.citisnap.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentProfilBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final RelativeLayout rootView;
+
+  @NonNull
+  public final Button ganti;
 
   @NonNull
   public final Button logout;
 
-  private FragmentProfilBinding(@NonNull FrameLayout rootView, @NonNull Button logout) {
+  @NonNull
+  public final CircleImageView profilePict;
+
+  private FragmentProfilBinding(@NonNull RelativeLayout rootView, @NonNull Button ganti,
+      @NonNull Button logout, @NonNull CircleImageView profilePict) {
     this.rootView = rootView;
+    this.ganti = ganti;
     this.logout = logout;
+    this.profilePict = profilePict;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -54,13 +64,25 @@ public final class FragmentProfilBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.ganti;
+      Button ganti = ViewBindings.findChildViewById(rootView, id);
+      if (ganti == null) {
+        break missingId;
+      }
+
       id = R.id.logout;
       Button logout = ViewBindings.findChildViewById(rootView, id);
       if (logout == null) {
         break missingId;
       }
 
-      return new FragmentProfilBinding((FrameLayout) rootView, logout);
+      id = R.id.profilePict;
+      CircleImageView profilePict = ViewBindings.findChildViewById(rootView, id);
+      if (profilePict == null) {
+        break missingId;
+      }
+
+      return new FragmentProfilBinding((RelativeLayout) rootView, ganti, logout, profilePict);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/card"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    style="@style/card"
     app:cardCornerRadius="20dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -15,8 +15,8 @@
             android:id="@+id/profileInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -26,31 +26,18 @@
                 android:layout_height="40dp"
                 android:src="@mipmap/ic_launcher" />
 
-            <RelativeLayout
+            <TextView
+                android:id="@+id/name"
+                style="@style/text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:text="@string/full_name"
+                android:layout_toEndOf="@id/profileImage"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="10dp"
-                android:layout_toEndOf="@+id/profileImage">
-
-                <TextView
-                    android:id="@+id/name"
-                    style="@style/text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins"
-                    android:text="@string/full_name"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:id="@+id/time"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/name"
-                    android:fontFamily="@font/poppins"
-                    android:text="24 minutes ago"
-                    android:textSize="11sp" />
-            </RelativeLayout>
+                android:textSize="20sp" />
         </RelativeLayout>
 
         <androidx.cardview.widget.CardView
@@ -58,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:layout_margin="10dp"
+            android:visibility="gone"
             app:cardCornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -73,12 +61,18 @@
         </androidx.cardview.widget.CardView>
 
         <TextView
-            style="@style/text"
             android:id="@+id/desc"
+            style="@style/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:text="asdsadasdasda"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:ellipsize="end"
+            android:maxLines="15"
+            android:fontFamily="@font/roboto"
             app:layout_constraintBottom_toTopOf="@+id/icon_group"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -88,8 +82,8 @@
             android:id="@+id/icon_group"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:layout_marginBottom="20dp"
             app:layout_constraintBottom_toBottomOf="parent">
 
@@ -117,7 +111,7 @@
                     android:layout_centerHorizontal="true"
                     android:fontFamily="@font/poppins_medium"
                     android:text="2"
-                    android:visibility="gone"/>
+                    android:visibility="gone" />
 
             </RelativeLayout>
 

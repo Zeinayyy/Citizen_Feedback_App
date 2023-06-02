@@ -1,20 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="add_post">Unggah postingan</string>
     <string name="app_name">Citisnap</string>
+    <string name="back_button">tombol kembali</string>
+    <string name="camera">Kamera</string>
     <string name="email">Email</string>
     <string name="email_error">Email tidak diperbolehkan kosong</string>
     <string name="empty_pass_error">Kata sandi tidak diperbolehkan kosong</string>
     <string name="error_login">Invalid email or password</string>
+    <string name="filter">Saring</string>
     <string name="forget_password">Lupa Password?</string>
     <string name="full_name">Nama Panjang</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_post">Beritahu kami sesuatu!</string>
+    <string name="home">Home</string>
     <string name="login">Masuk</string>
     <string name="login_to_register">Belum punya akun?</string>
     <string name="logo">logo</string>
+    <string name="name_error">Nama tidak diperbolehkan kosong</string>
+    <string name="next">Selanjutnya</string>
+    <string name="notifications">Notifications</string>
     <string name="or_sign_in_with">or sign in with</string>
     <string name="password">Password</string>
+    <string name="password_long">Kata sandi harus terdiri dari minimal 8 karakter</string>
+    <string name="post">Unggah</string>
+    <string name="post_image">Foto postingan</string>
+    <string name="profil">Profil</string>
+    <string name="profil_picture">Profile Picture</string>
     <string name="register">Daftar</string>
-    <string name="register_to_login">Already have an account?</string>
+    <string name="register_to_login">Sudah punya akun?</string>
+    <string name="search">Cari</string>
+    <string name="sign_in">Masuk</string>
     <string name="sign_in_with_google">Login dengan Google</string>
+    <string name="sign_up">Daftar</string>
     <string name="tagline">Berkontribusi untuk Perubahan yang Lebih Baik</string>
     <string name="tagline_2">Suarakan Aspirasi dan Keluh Kesah Anda</string>
+    <string name="username">Username</string>
+    <string name="username_already_exist">Username sudah ada</string>
+    <string name="username_error">Username tidak diperbolehkan kosong</string>
 </resources>

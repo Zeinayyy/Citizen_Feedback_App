@@ -21,8 +21,22 @@
     <string name="home">Home</string>
     <string name="add_post">Add Post</string>
     <string name="notifications">Notifications</string>
-    <string name="profil">Profil</string>
+    <string name="profil">Profile</string>
     <string name="search">Search</string>
-    <string name="profil_picture">Profil Picture</string>
+    <string name="profil_picture">Profile Picture</string>
     <string name="post_image">Post Image</string>
+    <string name="filter">Filter</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name_error">Name is not allowed to be empty</string>
+    <string name="sign_in">Sign In</string>
+    <string name="next">Next</string>
+    <string name="username_already_exist">Username already exist</string>
+    <string name="username_error">Username not allowed to be empty</string>
+    <string name="username">Username</string>
+    <string name="password_long">Password must be at least 8 characters long</string>
+    <string name="back_button">Back Button</string>
+    <string name="camera">Camera</string>
+    <string name="hint_post">Tell us something!</string>
+    <string name="post">Post</string>
+    <string name="profile_pict"><![CDATA[https://firebasestorage.googleapis.com/v0/b/c23-pc676-capstone-project.appspot.com/o/profile_picture.png?alt=media&token=7fdc2193-9de5-4ad1-a312-0304541d6ebd]]></string>
 </resources>
