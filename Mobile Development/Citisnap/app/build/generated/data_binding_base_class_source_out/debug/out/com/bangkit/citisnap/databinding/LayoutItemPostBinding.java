@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.bangkit.citisnap.R;
@@ -30,6 +31,9 @@ public final class LayoutItemPostBinding implements ViewBinding {
 
   @NonNull
   public final RelativeLayout actionUpLayout;
+
+  @NonNull
+  public final ConstraintLayout card;
 
   @NonNull
   public final ImageView comment;
@@ -57,13 +61,15 @@ public final class LayoutItemPostBinding implements ViewBinding {
 
   private LayoutItemPostBinding(@NonNull CardView rootView, @NonNull ImageView actionDown,
       @NonNull ImageView actionUp, @NonNull RelativeLayout actionUpLayout,
-      @NonNull ImageView comment, @NonNull TextView desc, @NonNull RelativeLayout iconGroup,
-      @NonNull ImageView image, @NonNull CardView imageCard, @NonNull TextView name,
-      @NonNull CircleImageView profileImage, @NonNull RelativeLayout profileInfo) {
+      @NonNull ConstraintLayout card, @NonNull ImageView comment, @NonNull TextView desc,
+      @NonNull RelativeLayout iconGroup, @NonNull ImageView image, @NonNull CardView imageCard,
+      @NonNull TextView name, @NonNull CircleImageView profileImage,
+      @NonNull RelativeLayout profileInfo) {
     this.rootView = rootView;
     this.actionDown = actionDown;
     this.actionUp = actionUp;
     this.actionUpLayout = actionUpLayout;
+    this.card = card;
     this.comment = comment;
     this.desc = desc;
     this.iconGroup = iconGroup;
@@ -119,6 +125,12 @@ public final class LayoutItemPostBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.card;
+      ConstraintLayout card = ViewBindings.findChildViewById(rootView, id);
+      if (card == null) {
+        break missingId;
+      }
+
       id = R.id.comment;
       ImageView comment = ViewBindings.findChildViewById(rootView, id);
       if (comment == null) {
@@ -168,7 +180,7 @@ public final class LayoutItemPostBinding implements ViewBinding {
       }
 
       return new LayoutItemPostBinding((CardView) rootView, actionDown, actionUp, actionUpLayout,
-          comment, desc, iconGroup, image, imageCard, name, profileImage, profileInfo);
+          card, comment, desc, iconGroup, image, imageCard, name, profileImage, profileInfo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

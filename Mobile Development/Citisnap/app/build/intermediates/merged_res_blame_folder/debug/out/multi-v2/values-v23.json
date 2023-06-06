@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-51:/values-v23/values-v23.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-55:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\9d786b4173842c716648f46287a9a7e7\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

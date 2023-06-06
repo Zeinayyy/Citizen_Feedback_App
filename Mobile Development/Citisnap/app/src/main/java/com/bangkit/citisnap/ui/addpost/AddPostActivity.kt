@@ -3,31 +3,29 @@ package com.bangkit.citisnap.ui.addpost
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.util.Log
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.View
+import android.widget.Button
+import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.ViewModelProvider
+import com.bangkit.citisnap.R
 import com.bangkit.citisnap.databinding.ActivityAddPostBinding
-import com.bangkit.citisnap.utils.uriToFile
+import com.bangkit.citisnap.ui.main.MainActivity
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.SetOptions
-import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import com.google.firebase.storage.FirebaseStorage
-import com.google.firebase.storage.StorageReference
-import org.checkerframework.checker.units.qual.s
-import org.w3c.dom.Text
-import java.io.File
 
 class AddPostActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAddPostBinding
     private lateinit var auth: FirebaseAuth
     private var getUri: Uri? = null
+    private lateinit var addPostViewModel: AddPostViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityAddPostBinding.inflate(layoutInflater)
@@ -38,21 +36,42 @@ class AddPostActivity : AppCompatActivity() {
 
         Glide.with(this).load(currentUser?.photoUrl).into(binding.photoProfile)
 
+        addPostViewModel = ViewModelProvider(this)[AddPostViewModel::class.java]
 
-
+        binding.post.isEnabled = false
+        addTextChangeListener(binding.description, binding.post)
 
         binding.back.setOnClickListener{ onBackPressed() }
         binding.gallery.setOnClickListener{ startGallery() }
         binding.post.setOnClickListener {
             val desc = binding.description.text.toString()
             val name = currentUser?.displayName.toString()
-
-            addPost(name, desc)
+            addPostViewModel.addPost(name, desc, getUri)
         }
 
+        addPostViewModel.isLoading.observe(this){ isLoading(it) }
+        addPostViewModel.updateUI.observe(this){ updateUI(it) }
+        addPostViewModel.message.observe(this){ Toast.makeText(this@AddPostActivity, it.toString(), Toast.LENGTH_SHORT).show() }
+    }
 
+    private fun updateUI(state: Boolean){
+        if (state){
+            startActivity(Intent(this@AddPostActivity, MainActivity::class.java))
+            finish()
+        }
+    }
 
-        Log.d("USER", auth.currentUser?.displayName.toString())
+    private fun isLoading(state: Boolean){
+        if (state){
+            binding.progressBar.visibility = View.VISIBLE
+            binding.post.isEnabled = false
+            binding.post.text = ""
+        }else{
+            binding.progressBar.visibility = View.GONE
+            binding.post.isEnabled = true
+            binding.post.text = getString(R.string.post)
+        }
+
     }
 
     private fun startGallery() {
@@ -76,60 +95,18 @@ class AddPostActivity : AppCompatActivity() {
         }
     }
 
-    private fun addPost(name: String, description: String){
-
-        if(getUri != null){
-            val storage = FirebaseStorage.getInstance()
-            val auth = Firebase.auth
-            val username = auth.currentUser?.displayName
-            val storageRef = storage.reference
-            val imagesRef: StorageReference = storageRef.child("$username").child("post")
-            val fileName = "${System.currentTimeMillis()}.jpg"
-            val imageRef = imagesRef.child(fileName)
-            val uploadTask = imageRef.putFile(getUri!!)
-
-            uploadTask.addOnSuccessListener { taskSnapshot->
-                taskSnapshot.storage.downloadUrl.addOnCompleteListener {
-                    val downloadUri = it.result.toString()
-                    val db = Firebase.firestore
-                    val posts = hashMapOf(
-                        "userId" to name,
-                        "description" to description,
-                        "imageUrl" to downloadUri
-                        )
-
-                    db.collection("posts")
-                        .add(posts)
-                        .addOnSuccessListener { documentReference->
-                            val documentId = documentReference.id
-                            posts["documentId"] = documentId
-                            documentReference.set(posts)
-                        }
-                }
-
-            }.addOnFailureListener{ exception->
-                Toast.makeText(this@AddPostActivity, exception.message.toString(), Toast.LENGTH_SHORT).show()
+    private fun addTextChangeListener(editText: EditText, button: Button) {
+        editText.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
             }
-        }else{
-            val db = Firebase.firestore
-            val posts = hashMapOf(
-                "userId" to name,
-                "description" to description,
-                "imageUrl" to "null"
-            )
-            db.collection("posts")
-                .add(posts)
-                .addOnSuccessListener { documentReference->
-                    val documentId = documentReference.id
-                    posts["documentId"] = documentId
-                    documentReference.set(posts)
-                }
-                .addOnFailureListener { exception->
-                    Toast.makeText(this@AddPostActivity, exception.message.toString(), Toast.LENGTH_SHORT).show()
-                }
 
-        }
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                button.isEnabled = !s.isNullOrEmpty()
+            }
 
+            override fun afterTextChanged(s: Editable?) {
 
+            }
+        })
     }
 }

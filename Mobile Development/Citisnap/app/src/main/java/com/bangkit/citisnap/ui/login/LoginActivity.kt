@@ -9,12 +9,12 @@ import android.text.TextWatcher
 import android.view.View
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.ViewModelProvider
 import com.bangkit.citisnap.R
 import com.bangkit.citisnap.databinding.ActivityLoginBinding
 import com.bangkit.citisnap.ui.main.MainActivity
 import com.bangkit.citisnap.ui.register.UsernameRegisterActivity
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -22,6 +22,7 @@ class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityLoginBinding
     private lateinit var auth: FirebaseAuth
+    private lateinit var loginViewModel: LoginViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
@@ -31,6 +32,8 @@ class LoginActivity : AppCompatActivity() {
 
         auth = Firebase.auth
 
+        loginViewModel = ViewModelProvider(this)[LoginViewModel::class.java]
+
         addTextChangeListener(binding.email) { binding.emailLayout.error = null }
         addTextChangeListener(binding.password) { binding.passwordLayout.error = null }
 
@@ -38,9 +41,13 @@ class LoginActivity : AppCompatActivity() {
             val email = binding.email.text.toString().trim()
             val password = binding.password.text.toString().trim()
             if (validateInput()) {
-                login(email, password)
+                loginViewModel.login(email, password)
             }
         }
+
+        loginViewModel.updateUI.observe(this){ updateUI(it) }
+        loginViewModel.isLoading.observe(this){ showLoading(it) }
+        loginViewModel.message.observe(this){ binding.passwordLayout.error = getString(R.string.error_login) }
 
         binding.register.setOnClickListener {
             startActivity(Intent(this, UsernameRegisterActivity::class.java))
@@ -65,25 +72,17 @@ class LoginActivity : AppCompatActivity() {
         return isValid
     }
 
-    private fun login(email: String, password: String) {
-        val auth = FirebaseAuth.getInstance()
-
-        auth.signInWithEmailAndPassword(email, password)
-            .addOnCompleteListener {
-                if (it.isSuccessful) {
-                    val user = auth.currentUser
-                    updateUI(user)
-                } else {
-                    binding.passwordLayout.error = getString(R.string.error_login)
-                }
-            }
-    }
-
-    private fun updateUI(currentUser: FirebaseUser?) {
-        if (currentUser != null) {
+    private fun updateUI(state: Boolean) {
+        if (state) {
             startActivity(Intent(this@LoginActivity, MainActivity::class.java))
             finish()
         }
+    }
+
+    private fun showLoading(state: Boolean) {
+        binding.progressBar.visibility = if (state) View.VISIBLE else View.GONE
+        binding.login.isEnabled = !state
+        binding.login.text = if (state) "" else getString(R.string.login)
     }
 
     private fun addTextChangeListener(editText: EditText, callback: () -> Unit) {
@@ -119,5 +118,10 @@ class LoginActivity : AppCompatActivity() {
 
     companion object {
         private const val duration_anim: Long = 500
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this@LoginActivity, MainActivity::class.java))
     }
 }

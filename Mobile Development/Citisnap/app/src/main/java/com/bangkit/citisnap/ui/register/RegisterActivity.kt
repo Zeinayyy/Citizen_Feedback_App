@@ -1,30 +1,25 @@
 package com.bangkit.citisnap.ui.register
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
 import android.widget.EditText
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContentProviderCompat.requireContext
+import androidx.lifecycle.ViewModelProvider
 import com.bangkit.citisnap.R
 import com.bangkit.citisnap.databinding.ActivityRegisterBinding
 import com.bangkit.citisnap.ui.main.MainActivity
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.auth.UserProfileChangeRequest
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.firestore.SetOptions
-import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
 class RegisterActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityRegisterBinding
     private lateinit var auth: FirebaseAuth
+    private lateinit var registerViewModel: RegisterViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,75 +33,44 @@ class RegisterActivity : AppCompatActivity() {
 
         val value = receivedBundle?.getString("username")
 
-
+        registerViewModel = ViewModelProvider(this)[RegisterViewModel::class.java]
 
         binding.register.setOnClickListener {
             val email = binding.email.text.toString().trim()
             val password = binding.password.text.toString().trim()
             val username = value.toString()
+            val profilePict = getString(R.string.profile_pict)
             validateInput()
             if(validateInput()){
-                register(username, email, password)
+                registerViewModel.register(username, email, password, profilePict)
                 binding.progressBar.visibility = View.VISIBLE
                 binding.register.isEnabled = false
                 binding.register.text = null
             }
         }
 
+        registerViewModel.isLoading.observe(this){ showLoading(it) }
+        registerViewModel.message.observe(this){ binding.passwordLayout.error = it }
+        registerViewModel.updateUI.observe(this){ updateUI(it) }
+
         addTextChangeListener(binding.email){ binding.emailLayout.error = null }
         addTextChangeListener(binding.password){ binding.passwordLayout.error = null }
 
     }
 
-    private fun register(username: String, email: String, password: String) {
-        val auth = FirebaseAuth.getInstance()
-        auth.createUserWithEmailAndPassword(email, password)
-            .addOnCompleteListener { task->
-                if (task.isSuccessful){
-                    val currentUser = auth.currentUser
-                    val db = Firebase.firestore
-
-                    currentUser?.getIdToken(false)?.addOnCompleteListener {
-                        if(it.isSuccessful){
-                            val token = it.result.token
-                            val profilePict = getString(R.string.profile_pict)
-
-                            val user = hashMapOf(
-                                "name" to username,
-                                "token" to token,
-                            )
-
-                            db.collection("users").document(currentUser.uid)
-                                .set(user, SetOptions.merge())
-
-                            val profileUpdates = UserProfileChangeRequest.Builder()
-                                .setPhotoUri(Uri.parse(profilePict))
-                                .setDisplayName(username)
-                                .build()
-
-                            currentUser.updateProfile(profileUpdates)
-                            binding.progressBar.visibility = View.GONE
-                        }else{
-                            task.exception
-                        }
-                    }
-
-                    updateUI(currentUser)
-                }else{
-                    val error = task.exception?.message.toString()
-                    if (error.contains("email address")){
-                        binding.emailLayout.error = error
-                    }
-
-                }
-            }
-    }
-
-    private fun updateUI(currentUser: FirebaseUser?) {
-        if (currentUser != null){
-            startActivity(Intent(this@RegisterActivity, MainActivity::class.java))
+    private fun updateUI(state: Boolean) {
+        if (state) {
+            val intent = Intent(this@RegisterActivity, MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)
             finish()
         }
+    }
+
+    private fun showLoading(state: Boolean) {
+        binding.progressBar.visibility = if (state) View.VISIBLE else View.GONE
+        binding.register.isEnabled = !state
+        binding.register.text = if (state) "" else getString(R.string.register)
     }
 
     private fun validateInput(): Boolean {

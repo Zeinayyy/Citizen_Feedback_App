@@ -35,10 +35,12 @@ class MainActivity : AppCompatActivity() {
 
         binding.login.setOnClickListener {
             startActivity(Intent(this@MainActivity, LoginActivity::class.java))
+            finish()
         }
 
         binding.register.setOnClickListener {
             startActivity(Intent(this@MainActivity, UsernameRegisterActivity::class.java))
+            finish()
         }
 
         val navView: BottomNavigationView = binding.navView
@@ -47,5 +49,9 @@ class MainActivity : AppCompatActivity() {
 
         navView.setupWithNavController(navController)
 
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
     }
 }

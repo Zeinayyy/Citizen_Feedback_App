@@ -1,30 +1,30 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-48:12
 MERGED from [androidx.databinding:viewbinding:7.4.0] C:\Users\Iftah\.gradle\caches\transforms-3\21c531ad2b19246f8b1a4b003b23c7c4\transformed\viewbinding-7.4.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:17:1-75:12
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Iftah\.gradle\caches\transforms-3\cebc6700a3f2a7b83d04f9e79e73dca8\transformed\recaptcha-18.1.2\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:2:1-20:12
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:2:1-20:12
-MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\4caeaacd8b1d79a7622f553c49942bcd\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\e09ab4374877edbfe5bdc14ebd0e4bb4\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Iftah\.gradle\caches\transforms-3\6b016f9ea8198c284ece63aa99263152\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Iftah\.gradle\caches\transforms-3\5eb772042a4321f1a71d44ea07d6e193\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\8a8211c310d8558c4673cfcb854e3b4f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\a492423055c6314e938e663b9202d2ab\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.android.gms:play-services-auth:20.5.0] C:\Users\Iftah\.gradle\caches\transforms-3\703ff3b2592e01e0cfd8c73700b8c637\transformed\play-services-auth-20.5.0\AndroidManifest.xml:17:1-40:12
 MERGED from [com.github.bumptech.glide:glide:4.15.0] C:\Users\Iftah\.gradle\caches\transforms-3\be72996051ce952c788d32059b2edfbb\transformed\glide-4.15.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\531038c03e37a1dd8dc0edfa22ade61f\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Iftah\.gradle\caches\transforms-3\cebc6700a3f2a7b83d04f9e79e73dca8\transformed\recaptcha-18.1.2\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\a947e0ad411ab2fd9427865b97ee144b\transformed\integrity-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\376ba9d3c495f35d6708e104cbcbdc18\transformed\firebase-storage-20.2.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-firestore:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\1a3b15f105658fb263307f24ebe180b6\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\1474bfe4860b26bbb0b436c0c4de213f\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\a7cc4a002a4483fb3fda64fc711ce5e5\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iftah\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Iftah\.gradle\caches\transforms-3\341b71d28eec36855ba867fa56032768\transformed\play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Iftah\.gradle\caches\transforms-3\3c68f3362107b7e626405a273a705a4e\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
@@ -44,67 +44,69 @@ MERGED from [androidx.activity:activity:1.6.0] C:\Users\Iftah\.gradle\caches\tra
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\2eeb8d74c114d35190d2a16e96ada64c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\64dc761e147e3a3b25629d9628e1cbb9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\f77114878b38226552219606b62aed28\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\db03891f8e4fd68b7a29daa723e38d1e\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\5c60a9a6eccb3b87c64a25fa7d16c932\transformed\navigation-common-2.5.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\2d5b551fa89f8872af36923e5979c502\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\3d83efe38ea91484db6be8e82b57b4a1\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\a785d029ed601a03666df85ac83d01be\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\c3a203c411bc18ee1358eb052acb9c1c\transformed\lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\1fa6335e7fff0b8fbb1aa503fd654a88\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\9a5a3045a8319b4c69b124e8ac229d3a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\db03891f8e4fd68b7a29daa723e38d1e\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\5c60a9a6eccb3b87c64a25fa7d16c932\transformed\navigation-common-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Iftah\.gradle\caches\transforms-3\e96537b0b143a8d1f9d49760d48109b9\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Iftah\.gradle\caches\transforms-3\96a301e85f784ea70c6acc2fc27e5f8c\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\959610537377d14d2156e43c47cbbf4d\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\53aba2cfb72d3bcb2591d315645c73a2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\16cdf0af28286892def4d9de130f812e\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\cc1b997b498fe0b84bb2af6c4852b7ba\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\888b5a33d77e6ca53f5502ddbc246311\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\5f5a38848955c3a56c1d4cabb01a8c68\transformed\core-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\083a578094cdad990d0b627c83f067e9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\73e28ec97186f163627efc001c2f998a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\7fc1924be479dbd9e0cd23e8c3850bb0\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf41951a600647fd5d96c2d3bf29614\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Iftah\.gradle\caches\transforms-3\bc15368ae96cc52b2b454d4b7f737338\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\11fd4a6445a7b0808d6cc220b74852d7\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\1fa6335e7fff0b8fbb1aa503fd654a88\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\9c8910a855c993a652300040a51b07b5\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\cff6693b2ebc42f0c61485eb9704f6e2\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\ffd0500e86710a1c10faa8c21a657364\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\5f5a38848955c3a56c1d4cabb01a8c68\transformed\core-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\26f6139c29bab187dd13bb0d59161b03\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\0fadac0e30a23978ba754e17bd04b600\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\113050b399eb7b2fab451280a362532e\transformed\lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\df2f9cf2d98fa1fea151d3d989a2597b\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\8f56c1601216a5d97d7e9374182087a6\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\8d47fd1b97abf168d15f52c85e69d36e\transformed\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\c30f5733309b3a105f71228d4a2d927f\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\fca895ed94a8f6689778747d3ed4e035\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\551dafcb7c1d136b9a185a7d99be1956\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\8c49d7fc3f181fb66e53fe128f10fbe8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\cc31fddfa3655174c1fca4171e281e64\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\9d786b4173842c716648f46287a9a7e7\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\f5666fd18d86221883c35b8183285fe1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\d322c38de4d31479f09fe04116b5511f\transformed\firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.15.0] C:\Users\Iftah\.gradle\caches\transforms-3\b289a2a57f91f0b4653340b840713913\transformed\gifdecoder-4.15.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\Iftah\.gradle\caches\transforms-3\92f0e42240373541238c9156c856db3b\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\089682282b58d0d896709b75cf48fd1a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\f1bcb7a95028b2fc8be1b5d426d036ff\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\216338d8b8aedd6d6934b12a61880105\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\f51bf1fbb2d95c39fefe43bfef1b7eea\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\3cea98592fdd6e0454123c4a160ff779\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\634a3b2339438f4b9762560a60ab9d6a\transformed\lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\32514eeba89dd9759e3886d8ffaf4d8b\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\9741eedb6febb31ef45528e34d9e825c\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\884dfb925f0072033ab8c8ef5f8e464d\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\761e9d045000404b67d3952732dfb073\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\2e84a6d9e4e616824a9a03412e1b2dde\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Iftah\.gradle\caches\transforms-3\7137e0d1a1cdcdb3a5db20d40fdebbb7\transformed\grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\caa64f4c95459a3c066b60fe6be7f4c4\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:2:11-69
@@ -129,25 +131,23 @@ ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\
 	android:name
 		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:7:22-77
 application
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:9:5-42:19
-MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:28:5-73:19
-MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:28:5-73:19
-MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
-MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:10:5-18:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:10:5-18:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:10:5-18:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:10:5-18:19
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:9:5-46:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Iftah\.gradle\caches\transforms-3\6b016f9ea8198c284ece63aa99263152\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Iftah\.gradle\caches\transforms-3\6b016f9ea8198c284ece63aa99263152\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Iftah\.gradle\caches\transforms-3\5eb772042a4321f1a71d44ea07d6e193\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Iftah\.gradle\caches\transforms-3\5eb772042a4321f1a71d44ea07d6e193\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.android.gms:play-services-auth:20.5.0] C:\Users\Iftah\.gradle\caches\transforms-3\703ff3b2592e01e0cfd8c73700b8c637\transformed\play-services-auth-20.5.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.5.0] C:\Users\Iftah\.gradle\caches\transforms-3\703ff3b2592e01e0cfd8c73700b8c637\transformed\play-services-auth-20.5.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.github.bumptech.glide:glide:4.15.0] C:\Users\Iftah\.gradle\caches\transforms-3\be72996051ce952c788d32059b2edfbb\transformed\glide-4.15.0\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.15.0] C:\Users\Iftah\.gradle\caches\transforms-3\be72996051ce952c788d32059b2edfbb\transformed\glide-4.15.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\a947e0ad411ab2fd9427865b97ee144b\transformed\integrity-1.1.0\AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\a947e0ad411ab2fd9427865b97ee144b\transformed\integrity-1.1.0\AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\376ba9d3c495f35d6708e104cbcbdc18\transformed\firebase-storage-20.2.0\AndroidManifest.xml:28:5-36:19
@@ -158,6 +158,8 @@ MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Ifta
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\1474bfe4860b26bbb0b436c0c4de213f\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\a7cc4a002a4483fb3fda64fc711ce5e5\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\a7cc4a002a4483fb3fda64fc711ce5e5\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iftah\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iftah\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\Iftah\.gradle\caches\transforms-3\444589f3d98ca93972c8257b151d665c\transformed\play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
@@ -168,18 +170,20 @@ MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Iftah\.
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Iftah\.gradle\caches\transforms-3\5aeb052c8a21bd23340297a56c28a8d4\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a5b62a21515b8a968b61b3033b0c9378\transformed\play-services-basement-18.2.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a5b62a21515b8a968b61b3033b0c9378\transformed\play-services-basement-18.2.0\AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\53aba2cfb72d3bcb2591d315645c73a2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\53aba2cfb72d3bcb2591d315645c73a2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\8d47fd1b97abf168d15f52c85e69d36e\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\8d47fd1b97abf168d15f52c85e69d36e\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.15.0] C:\Users\Iftah\.gradle\caches\transforms-3\b289a2a57f91f0b4653340b840713913\transformed\gifdecoder-4.15.0\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.15.0] C:\Users\Iftah\.gradle\caches\transforms-3\b289a2a57f91f0b4653340b840713913\transformed\gifdecoder-4.15.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\089682282b58d0d896709b75cf48fd1a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\089682282b58d0d896709b75cf48fd1a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\f51bf1fbb2d95c39fefe43bfef1b7eea\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -187,85 +191,81 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\If
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
 		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:14:9-41
+	android:launchMode
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:15:9-38
 	android:fullBackupContent
 		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:17:9-29
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:18:9-29
 	android:icon
 		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
 		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:16:9-46
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:17:9-46
 	android:dataExtractionRules
 		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:11:9-65
+activity#com.bangkit.citisnap.ui.comment.CommentsActivity
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:20:13-56
 activity#com.bangkit.citisnap.ui.register.UsernameRegisterActivity
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:18:9-20:40
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:20:13-37
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:19:13-65
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:23:13-65
 activity#com.bangkit.citisnap.ui.addpost.AddPostActivity
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:21:9-23:40
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:22:13-55
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:26:13-55
 activity#com.bangkit.citisnap.ui.login.LoginActivity
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:24:9-26:40
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:25:13-51
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:29:13-51
 activity#com.bangkit.citisnap.ui.register.RegisterActivity
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:27:9-29:40
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:28:13-57
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:32:13-57
 activity#com.bangkit.citisnap.ui.main.MainActivity
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:30:9-32:40
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:32:13-37
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:31:13-49
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:35:13-49
 activity#com.bangkit.citisnap.ui.splashscreen.SplashScreenActivity
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:33:9-41:20
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:37:9-45:20
 	android:exported
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:35:13-36
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:34:13-65
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:38:13-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:36:13-40:29
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:39:17-77
+ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:39:27-74
+		ADDED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml:43:27-74
 uses-sdk
 INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.4.0] C:\Users\Iftah\.gradle\caches\transforms-3\21c531ad2b19246f8b1a4b003b23c7c4\transformed\viewbinding-7.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:7.4.0] C:\Users\Iftah\.gradle\caches\transforms-3\21c531ad2b19246f8b1a4b003b23c7c4\transformed\viewbinding-7.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:21:5-23:64
-MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:21:5-23:64
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Iftah\.gradle\caches\transforms-3\cebc6700a3f2a7b83d04f9e79e73dca8\transformed\recaptcha-18.1.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Iftah\.gradle\caches\transforms-3\cebc6700a3f2a7b83d04f9e79e73dca8\transformed\recaptcha-18.1.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\4caeaacd8b1d79a7622f553c49942bcd\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\4caeaacd8b1d79a7622f553c49942bcd\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\e09ab4374877edbfe5bdc14ebd0e4bb4\transformed\navigation-ui-2.5.3\AndroidManifest.xml:20:5-22:41
@@ -278,12 +278,22 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Iftah\.gradl
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\8a8211c310d8558c4673cfcb854e3b4f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\a492423055c6314e938e663b9202d2ab\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\a492423055c6314e938e663b9202d2ab\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.android.gms:play-services-auth:20.5.0] C:\Users\Iftah\.gradle\caches\transforms-3\703ff3b2592e01e0cfd8c73700b8c637\transformed\play-services-auth-20.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.5.0] C:\Users\Iftah\.gradle\caches\transforms-3\703ff3b2592e01e0cfd8c73700b8c637\transformed\play-services-auth-20.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.15.0] C:\Users\Iftah\.gradle\caches\transforms-3\be72996051ce952c788d32059b2edfbb\transformed\glide-4.15.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.15.0] C:\Users\Iftah\.gradle\caches\transforms-3\be72996051ce952c788d32059b2edfbb\transformed\glide-4.15.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\531038c03e37a1dd8dc0edfa22ade61f\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\531038c03e37a1dd8dc0edfa22ade61f\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Iftah\.gradle\caches\transforms-3\cebc6700a3f2a7b83d04f9e79e73dca8\transformed\recaptcha-18.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Iftah\.gradle\caches\transforms-3\cebc6700a3f2a7b83d04f9e79e73dca8\transformed\recaptcha-18.1.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\a947e0ad411ab2fd9427865b97ee144b\transformed\integrity-1.1.0\AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\a947e0ad411ab2fd9427865b97ee144b\transformed\integrity-1.1.0\AndroidManifest.xml:4:5-44
 MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\376ba9d3c495f35d6708e104cbcbdc18\transformed\firebase-storage-20.2.0\AndroidManifest.xml:19:5-21:41
@@ -294,6 +304,8 @@ MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Ifta
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\1474bfe4860b26bbb0b436c0c4de213f\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\a7cc4a002a4483fb3fda64fc711ce5e5\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\a7cc4a002a4483fb3fda64fc711ce5e5\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iftah\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iftah\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Iftah\.gradle\caches\transforms-3\341b71d28eec36855ba867fa56032768\transformed\play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
@@ -332,26 +344,30 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Iftah\.gr
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\64dc761e147e3a3b25629d9628e1cbb9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\f77114878b38226552219606b62aed28\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\f77114878b38226552219606b62aed28\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\db03891f8e4fd68b7a29daa723e38d1e\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\db03891f8e4fd68b7a29daa723e38d1e\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\5c60a9a6eccb3b87c64a25fa7d16c932\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\5c60a9a6eccb3b87c64a25fa7d16c932\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\2d5b551fa89f8872af36923e5979c502\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\2d5b551fa89f8872af36923e5979c502\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\3d83efe38ea91484db6be8e82b57b4a1\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\3d83efe38ea91484db6be8e82b57b4a1\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\a785d029ed601a03666df85ac83d01be\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\a785d029ed601a03666df85ac83d01be\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\c3a203c411bc18ee1358eb052acb9c1c\transformed\lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\c3a203c411bc18ee1358eb052acb9c1c\transformed\lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\1fa6335e7fff0b8fbb1aa503fd654a88\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\1fa6335e7fff0b8fbb1aa503fd654a88\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\9a5a3045a8319b4c69b124e8ac229d3a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\9a5a3045a8319b4c69b124e8ac229d3a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\db03891f8e4fd68b7a29daa723e38d1e\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\db03891f8e4fd68b7a29daa723e38d1e\transformed\navigation-common-ktx-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\5c60a9a6eccb3b87c64a25fa7d16c932\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\Iftah\.gradle\caches\transforms-3\5c60a9a6eccb3b87c64a25fa7d16c932\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Iftah\.gradle\caches\transforms-3\e96537b0b143a8d1f9d49760d48109b9\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Iftah\.gradle\caches\transforms-3\e96537b0b143a8d1f9d49760d48109b9\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Iftah\.gradle\caches\transforms-3\96a301e85f784ea70c6acc2fc27e5f8c\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Iftah\.gradle\caches\transforms-3\96a301e85f784ea70c6acc2fc27e5f8c\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\959610537377d14d2156e43c47cbbf4d\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\959610537377d14d2156e43c47cbbf4d\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\53aba2cfb72d3bcb2591d315645c73a2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\53aba2cfb72d3bcb2591d315645c73a2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\16cdf0af28286892def4d9de130f812e\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\16cdf0af28286892def4d9de130f812e\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\cc1b997b498fe0b84bb2af6c4852b7ba\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\cc1b997b498fe0b84bb2af6c4852b7ba\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\888b5a33d77e6ca53f5502ddbc246311\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\888b5a33d77e6ca53f5502ddbc246311\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\5f5a38848955c3a56c1d4cabb01a8c68\transformed\core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\5f5a38848955c3a56c1d4cabb01a8c68\transformed\core-ktx-1.10.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\083a578094cdad990d0b627c83f067e9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\083a578094cdad990d0b627c83f067e9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\73e28ec97186f163627efc001c2f998a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -364,30 +380,34 @@ MERGED from [androidx.browser:browser:1.4.0] C:\Users\Iftah\.gradle\caches\trans
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Iftah\.gradle\caches\transforms-3\bc15368ae96cc52b2b454d4b7f737338\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\11fd4a6445a7b0808d6cc220b74852d7\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\11fd4a6445a7b0808d6cc220b74852d7\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\1fa6335e7fff0b8fbb1aa503fd654a88\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\1fa6335e7fff0b8fbb1aa503fd654a88\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\9c8910a855c993a652300040a51b07b5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\9c8910a855c993a652300040a51b07b5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\cff6693b2ebc42f0c61485eb9704f6e2\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\cff6693b2ebc42f0c61485eb9704f6e2\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\ffd0500e86710a1c10faa8c21a657364\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\ffd0500e86710a1c10faa8c21a657364\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\5f5a38848955c3a56c1d4cabb01a8c68\transformed\core-ktx-1.10.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\5f5a38848955c3a56c1d4cabb01a8c68\transformed\core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\26f6139c29bab187dd13bb0d59161b03\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\26f6139c29bab187dd13bb0d59161b03\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\0fadac0e30a23978ba754e17bd04b600\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\0fadac0e30a23978ba754e17bd04b600\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\113050b399eb7b2fab451280a362532e\transformed\lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\113050b399eb7b2fab451280a362532e\transformed\lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\df2f9cf2d98fa1fea151d3d989a2597b\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\df2f9cf2d98fa1fea151d3d989a2597b\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\8f56c1601216a5d97d7e9374182087a6\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\8f56c1601216a5d97d7e9374182087a6\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\8d47fd1b97abf168d15f52c85e69d36e\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\8d47fd1b97abf168d15f52c85e69d36e\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\c30f5733309b3a105f71228d4a2d927f\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\c30f5733309b3a105f71228d4a2d927f\transformed\savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\fca895ed94a8f6689778747d3ed4e035\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\fca895ed94a8f6689778747d3ed4e035\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\551dafcb7c1d136b9a185a7d99be1956\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\551dafcb7c1d136b9a185a7d99be1956\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\8c49d7fc3f181fb66e53fe128f10fbe8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\8c49d7fc3f181fb66e53fe128f10fbe8\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\cc31fddfa3655174c1fca4171e281e64\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\cc31fddfa3655174c1fca4171e281e64\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\9d786b4173842c716648f46287a9a7e7\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\9d786b4173842c716648f46287a9a7e7\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\f5666fd18d86221883c35b8183285fe1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
@@ -398,6 +418,8 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.15.0] C:\Users\Iftah\.gradle
 MERGED from [com.github.bumptech.glide:gifdecoder:4.15.0] C:\Users\Iftah\.gradle\caches\transforms-3\b289a2a57f91f0b4653340b840713913\transformed\gifdecoder-4.15.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\Iftah\.gradle\caches\transforms-3\92f0e42240373541238c9156c856db3b\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\Iftah\.gradle\caches\transforms-3\92f0e42240373541238c9156c856db3b\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\089682282b58d0d896709b75cf48fd1a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\089682282b58d0d896709b75cf48fd1a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\f1bcb7a95028b2fc8be1b5d426d036ff\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -406,14 +428,8 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Iftah\.gradle\ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\216338d8b8aedd6d6934b12a61880105\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\f51bf1fbb2d95c39fefe43bfef1b7eea\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\f51bf1fbb2d95c39fefe43bfef1b7eea\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\3cea98592fdd6e0454123c4a160ff779\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\3cea98592fdd6e0454123c4a160ff779\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\634a3b2339438f4b9762560a60ab9d6a\transformed\lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\634a3b2339438f4b9762560a60ab9d6a\transformed\lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\32514eeba89dd9759e3886d8ffaf4d8b\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Iftah\.gradle\caches\transforms-3\32514eeba89dd9759e3886d8ffaf4d8b\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\9741eedb6febb31ef45528e34d9e825c\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Iftah\.gradle\caches\transforms-3\9741eedb6febb31ef45528e34d9e825c\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\884dfb925f0072033ab8c8ef5f8e464d\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\884dfb925f0072033ab8c8ef5f8e464d\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\761e9d045000404b67d3952732dfb073\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\761e9d045000404b67d3952732dfb073\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\2e84a6d9e4e616824a9a03412e1b2dde\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
@@ -438,16 +454,16 @@ service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth-ktx:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\c858ef74583432fb776c39213d887418\transformed\firebase-auth-ktx-22.0.0\AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
-MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:11:9-17:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:11:9-17:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\376ba9d3c495f35d6708e104cbcbdc18\transformed\firebase-storage-20.2.0\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\376ba9d3c495f35d6708e104cbcbdc18\transformed\firebase-storage-20.2.0\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-firestore:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\1a3b15f105658fb263307f24ebe180b6\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-firestore:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\1a3b15f105658fb263307f24ebe180b6\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iftah\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iftah\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:32:9-36:35
 	android:exported
@@ -530,24 +546,6 @@ ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\cac
 		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\d0d4059eaed3090952d9ead5f12a9c3c\transformed\firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
-meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar
-ADDED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
-	android:value
-		ADDED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:16:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:15:17-122
-meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
-ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:14:13-16:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:16:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:15:17-126
-meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
-ADDED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:14:13-16:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:16:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:15:17-113
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:20.5.0] C:\Users\Iftah\.gradle\caches\transforms-3\703ff3b2592e01e0cfd8c73700b8c637\transformed\play-services-auth-20.5.0\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
@@ -568,6 +566,18 @@ ADDED from [com.google.android.gms:play-services-auth:20.5.0] C:\Users\Iftah\.gr
 		ADDED from [com.google.android.gms:play-services-auth:20.5.0] C:\Users\Iftah\.gradle\caches\transforms-3\703ff3b2592e01e0cfd8c73700b8c637\transformed\play-services-auth-20.5.0\AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:20.5.0] C:\Users\Iftah\.gradle\caches\transforms-3\703ff3b2592e01e0cfd8c73700b8c637\transformed\play-services-auth-20.5.0\AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\3da0a6da3959ba80083960ec6669c4d1\transformed\firebase-firestore-ktx-24.6.1\AndroidManifest.xml:15:17-126
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a382523b0d23aab31b06fa15c8c89676\transformed\firebase-storage-ktx-20.2.0\AndroidManifest.xml:15:17-122
 meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
 ADDED from [com.google.firebase:firebase-storage:20.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\376ba9d3c495f35d6708e104cbcbdc18\transformed\firebase-storage-20.2.0\AndroidManifest.xml:32:13-34:85
 	android:value
@@ -580,6 +590,12 @@ ADDED from [com.google.firebase:firebase-firestore:24.6.1] C:\Users\Iftah\.gradl
 		ADDED from [com.google.firebase:firebase-firestore:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\1a3b15f105658fb263307f24ebe180b6\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:21:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:24.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\1a3b15f105658fb263307f24ebe180b6\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:20:17-111
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.1] C:\Users\Iftah\.gradle\caches\transforms-3\59372adb69a34711a60b21f453f45cab\transformed\firebase-common-ktx-20.3.1\AndroidManifest.xml:15:17-113
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iftah\.gradle\caches\transforms-3\9063cd18a09db6b3db4071c7de624392\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
 	android:authorities
@@ -606,22 +622,12 @@ ADDED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Iftah
 		ADDED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a5b62a21515b8a968b61b3033b0c9378\transformed\play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\a5b62a21515b8a968b61b3033b0c9378\transformed\play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
-uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-	android:required
-		ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\53aba2cfb72d3bcb2591d315645c73a2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\53aba2cfb72d3bcb2591d315645c73a2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\089682282b58d0d896709b75cf48fd1a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Iftah\.gradle\caches\transforms-3\089682282b58d0d896709b75cf48fd1a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
@@ -638,6 +644,24 @@ ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Iftah\.gradle\caches\transfor
 		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Iftah\.gradle\caches\transforms-3\8cc9a204baab5acf352830c9f393b0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\53aba2cfb72d3bcb2591d315645c73a2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\53aba2cfb72d3bcb2591d315645c73a2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Iftah\.gradle\caches\transforms-3\53aba2cfb72d3bcb2591d315645c73a2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Iftah\.gradle\caches\transforms-3\fbf19cb4fc628db7bfd5b6a183459400\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
@@ -658,9 +682,45 @@ uses-permission#com.bangkit.citisnap.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.10.1] C:\Users\Iftah\.gradle\caches\transforms-3\ff4454bf5a7d05b5467176d303dcec17\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Iftah\.gradle\caches\transforms-3\9e21522e25d1c4315ca512a8527e9dc4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Iftah\.gradle\caches\transforms-3\0a24f44e16eef32790ecef31b3701a1b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

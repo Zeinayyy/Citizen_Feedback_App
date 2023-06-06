@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-51:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-55:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\597f7ccb47bb57226b133f4aa9aec958\\transformed\\play-services-base-18.0.1\\res\\values-en-rGB\\values.xml",

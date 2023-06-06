@@ -38,4 +38,6 @@
     <string name="camera">Kamera</string>
     <string name="hint_post">Beritahu kami sesuatu!</string>
     <string name="post">Unggah</string>
+    <string name="profile_pict"><![CDATA[https://firebasestorage.googleapis.com/v0/b/c23-pc676-capstone-project.appspot.com/o/profile_picture.png?alt=media&token=7fdc2193-9de5-4ad1-a312-0304541d6ebd]]></string>
+
 </resources>

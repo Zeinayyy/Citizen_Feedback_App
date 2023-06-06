@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -52,12 +53,15 @@ public final class ActivityAddPostBinding implements ViewBinding {
   public final Button post;
 
   @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final RelativeLayout relativeLayout2;
 
   private ActivityAddPostBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView back,
       @NonNull ImageView camera, @NonNull CardView cardView, @NonNull EditText description,
       @NonNull ImageView gallery, @NonNull ImageView location, @NonNull ImageView photo,
-      @NonNull CircleImageView photoProfile, @NonNull Button post,
+      @NonNull CircleImageView photoProfile, @NonNull Button post, @NonNull ProgressBar progressBar,
       @NonNull RelativeLayout relativeLayout2) {
     this.rootView = rootView;
     this.back = back;
@@ -69,6 +73,7 @@ public final class ActivityAddPostBinding implements ViewBinding {
     this.photo = photo;
     this.photoProfile = photoProfile;
     this.post = post;
+    this.progressBar = progressBar;
     this.relativeLayout2 = relativeLayout2;
   }
 
@@ -153,6 +158,12 @@ public final class ActivityAddPostBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       id = R.id.relativeLayout2;
       RelativeLayout relativeLayout2 = ViewBindings.findChildViewById(rootView, id);
       if (relativeLayout2 == null) {
@@ -160,7 +171,7 @@ public final class ActivityAddPostBinding implements ViewBinding {
       }
 
       return new ActivityAddPostBinding((ConstraintLayout) rootView, back, camera, cardView,
-          description, gallery, location, photo, photoProfile, post, relativeLayout2);
+          description, gallery, location, photo, photoProfile, post, progressBar, relativeLayout2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

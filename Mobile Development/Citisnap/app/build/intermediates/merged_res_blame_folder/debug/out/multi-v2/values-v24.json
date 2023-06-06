@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-51:/values-v24/values-v24.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-55:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\a492423055c6314e938e663b9202d2ab\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",

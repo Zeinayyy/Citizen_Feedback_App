@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-51:/values-as/values-as.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-55:/values-as/values-as.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\e09ab4374877edbfe5bdc14ebd0e4bb4\\transformed\\navigation-ui-2.5.3\\res\\values-as\\values-as.xml",

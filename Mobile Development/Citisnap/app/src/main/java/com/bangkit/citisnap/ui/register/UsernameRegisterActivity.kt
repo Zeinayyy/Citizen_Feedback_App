@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.bangkit.citisnap.R
 import com.bangkit.citisnap.databinding.ActivityUsernameBinding
+import com.bangkit.citisnap.ui.main.MainActivity
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
@@ -90,13 +91,13 @@ class UsernameRegisterActivity : AppCompatActivity() {
                         )
                         button.isEnabled = true
                     }
+                }else{
+                    Log.d("ERROR", task.exception?.message.toString())
                 }
             }
             .addOnFailureListener {
                 Log.d("Error", it.message.toString())
             }
-
-
     }
 
     private fun addTextChangeListener(editText: EditText, callback: () -> Unit) {
@@ -115,6 +116,11 @@ class UsernameRegisterActivity : AppCompatActivity() {
 
             }
         })
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this@UsernameRegisterActivity, MainActivity::class.java))
     }
 
 }

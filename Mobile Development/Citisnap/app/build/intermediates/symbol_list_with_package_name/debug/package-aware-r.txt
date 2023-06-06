@@ -3032,6 +3032,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable email
+drawable end
 drawable filter
 drawable gallery
 drawable googleg_disabled_color_18
@@ -3136,6 +3137,7 @@ drawable person
 drawable profil
 drawable search
 drawable search_bar
+drawable send
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3244,6 +3246,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomNav
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3258,6 +3261,7 @@ id cache_measures
 id callMeasure
 id camera
 id cancel_button
+id card
 id cardView
 id carryVelocity
 id center
@@ -3319,6 +3323,8 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id divider
+id divider2
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3530,6 +3536,7 @@ id postLayout
 id pressed
 id profilFragment
 id profileImage
+id profileImageComment
 id profileInfo
 id profilePict
 id progressBar
@@ -3542,11 +3549,13 @@ id recycle
 id register
 id relativeLayout
 id relativeLayout2
+id relativeLayout3
 id reverseSawtooth
 id right
 id rightToLeft
 id right_icon
 id right_side
+id rlVotes
 id rounded
 id row_index_key
 id rtl
@@ -3589,6 +3598,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3681,6 +3691,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user
 id username
 id usernameLayout
 id vertical_only
@@ -3818,6 +3829,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_post
+layout activity_comment
 layout activity_login
 layout activity_main
 layout activity_register
@@ -3845,6 +3857,7 @@ layout fragment_home
 layout fragment_notifications
 layout fragment_profil
 layout fragment_search
+layout layout_item_comment
 layout layout_item_post
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3983,6 +3996,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
 string default_web_client_id
+string description
 string email
 string email_error
 string empty_pass_error
@@ -4009,6 +4023,7 @@ string hint_post
 string home
 string icon_content_description
 string item_view_role_description
+string leave_a_comment
 string login
 string login_to_register
 string logo
@@ -4137,6 +4152,7 @@ string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string send
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string sign_in
@@ -4145,9 +4161,12 @@ string sign_up
 string status_bar_notification_info_overflow
 string tagline
 string tagline_2
+string thread
 string username
 string username_already_exist
 string username_error
+string vote_down
+string vote_up
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

@@ -37,6 +37,7 @@ class ProfilFragment : Fragment() {
         binding.logout.setOnClickListener {
             auth.signOut()
             startActivity(Intent(requireContext(), MainActivity::class.java))
+            activity?.finish()
         }
 
         binding.ganti.setOnClickListener {
