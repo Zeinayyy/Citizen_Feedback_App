@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-55:/values-v26/values-v26.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-56:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\a492423055c6314e938e663b9202d2ab\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\93c04a9a38f2d6c557294380fae91aad\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

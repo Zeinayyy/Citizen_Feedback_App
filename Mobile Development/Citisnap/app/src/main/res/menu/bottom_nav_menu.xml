@@ -21,8 +21,8 @@
         android:title="@string/notifications" />
 
     <item
-        android:id="@+id/profilFragment"
-        android:icon="@drawable/profil"
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/profile"
         android:title="@string/profil" />
 
 </menu>

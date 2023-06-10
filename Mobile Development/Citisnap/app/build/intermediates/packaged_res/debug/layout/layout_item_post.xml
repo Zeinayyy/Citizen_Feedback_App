@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    app:cardCornerRadius="20dp">
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/card"
@@ -25,7 +26,7 @@
                 android:id="@+id/profileImage"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@color/gray_light" />
 
             <TextView
                 android:id="@+id/name"
@@ -34,7 +35,6 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
                 android:textStyle="bold"
-                android:text="@string/full_name"
                 android:layout_toEndOf="@id/profileImage"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="10dp"
@@ -95,14 +95,13 @@
                 android:layout_marginEnd="10dp">
 
                 <ImageView
+                    style="@style/up_votes"
                     android:id="@+id/actionUp"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:background="@null"
                     android:clickable="true"
                     android:contentDescription="@string/vote_up"
-                    android:focusable="true"
-                    android:src="@drawable/arrow_up" />
+                    android:focusable="true" />
 
                 <TextView
                     style="@style/text"
@@ -117,6 +116,7 @@
 
 
             <ImageView
+                style="@style/down_votes"
                 android:id="@+id/actionDown"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
@@ -124,19 +124,19 @@
                 android:layout_toEndOf="@id/actionUpLayout"
                 android:clickable="true"
                 android:contentDescription="@string/vote_down"
-                android:focusable="true"
-                android:src="@drawable/arrow_down" />
+                android:focusable="true"/>
 
             <ImageView
+                style="@style/comment"
                 android:id="@+id/comment"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:layout_marginEnd="10dp"
                 android:layout_toEndOf="@id/actionDown"
                 android:clickable="true"
+                android:layout_centerVertical="true"
                 android:contentDescription="@null"
-                android:focusable="true"
-                android:src="@drawable/comment" />
+                android:focusable="true" />
 
         </RelativeLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

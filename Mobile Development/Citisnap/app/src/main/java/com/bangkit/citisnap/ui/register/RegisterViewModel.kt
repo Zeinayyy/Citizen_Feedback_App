@@ -21,8 +21,6 @@ class RegisterViewModel : ViewModel() {
     private val _updateUI = MutableLiveData<Boolean>()
     val updateUI: LiveData<Boolean> get() = _updateUI
 
-
-
     fun register(username: String, email: String, password: String, profilePict: String) {
         _isLoading.value = true
         val auth = FirebaseAuth.getInstance()
@@ -32,35 +30,25 @@ class RegisterViewModel : ViewModel() {
                     val currentUser = auth.currentUser
                     val db = Firebase.firestore
 
-                    currentUser?.getIdToken(false)?.addOnCompleteListener {
-                        if(it.isSuccessful){
-                            val token = it.result.token
+                    val user = hashMapOf(
+                        "username" to username,
+                        "name" to username,
+                        "uid" to currentUser?.uid,
+                        "profileImg" to profilePict
+                    )
 
-                            val user = hashMapOf(
-                                "name" to username,
-                                "token" to token,
-                                "uid" to currentUser.uid,
-                                "profileImg" to profilePict
-                            )
+                    db.collection("users").document(username)
+                        .set(user, SetOptions.merge())
 
-                            db.collection("users").document(username)
-                                .set(user, SetOptions.merge())
+                    val profileUpdates = UserProfileChangeRequest.Builder()
+                        .setPhotoUri(Uri.parse(profilePict))
+                        .setDisplayName(username)
+                        .build()
 
-                            val profileUpdates = UserProfileChangeRequest.Builder()
-                                .setPhotoUri(Uri.parse(profilePict))
-                                .setDisplayName(username)
-                                .build()
+                    currentUser?.updateProfile(profileUpdates)
 
-                            currentUser.updateProfile(profileUpdates)
-
-                            _isLoading.value = false
-                            _updateUI.value = true
-
-                        }else{
-                            _message.value = task.exception?.message.toString()
-                            _isLoading.value = false
-                        }
-                    }
+                    _isLoading.value = false
+                    _updateUI.value = true
                 }else{
                     val error = task.exception?.message.toString()
                     _isLoading.value = false

@@ -8,7 +8,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bangkit.citisnap.databinding.LayoutItemPostBinding
 import com.bangkit.citisnap.model.Posts
 import com.bangkit.citisnap.ui.comment.CommentsActivity
+import com.bangkit.citisnap.ui.detailProfile.DetailProfileActivity
 import com.bumptech.glide.Glide
+
 
 class PostAdapter(private val postsList: List<Posts>) : RecyclerView.Adapter<PostAdapter.HomeViewHolder>() {
 
@@ -31,6 +33,11 @@ class PostAdapter(private val postsList: List<Posts>) : RecyclerView.Adapter<Pos
                 binding.comment.setOnClickListener {
                     val intent = Intent(itemView.context, CommentsActivity::class.java)
                     intent.putExtra("id Post", posts.postId)
+                    itemView.context.startActivity(intent)
+                }
+                binding.profileImage.setOnClickListener {
+                    val intent = Intent(itemView.context, DetailProfileActivity::class.java)
+                    intent.putExtra("username", posts.name)
                     itemView.context.startActivity(intent)
                 }
             }
@@ -56,4 +63,5 @@ class PostAdapter(private val postsList: List<Posts>) : RecyclerView.Adapter<Pos
             holder.itemView.context.startActivity(intent)
         }
     }
+
 }
