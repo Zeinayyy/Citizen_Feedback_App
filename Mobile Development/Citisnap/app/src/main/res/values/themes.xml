@@ -6,7 +6,7 @@
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondary">@color/gray_medium</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
@@ -35,9 +35,22 @@
     <style name="text">
         <item name="android:textColor">@color/black</item>
     </style>
+    
+    <style name="up_votes">
+        <item name="android:src">@drawable/arrow_up_light</item>
+    </style>
+
+    <style name="down_votes">
+        <item name="android:src">@drawable/arrow_down_light</item>
+    </style>
+
+    <style name="comment">
+        <item name="android:src">@drawable/comment</item>
+    </style>
+
 
     <style name="background">
-        <item name="android:background">@color/gray_light</item>
+        <item name="android:background">@color/white</item>
     </style>
 
     <style name="bottom_navigation">

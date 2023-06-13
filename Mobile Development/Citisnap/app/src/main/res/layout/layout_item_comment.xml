@@ -18,7 +18,8 @@
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profileImage"
             android:layout_width="40dp"
-            android:layout_height="40dp" />
+            android:layout_height="40dp"
+            android:src="@color/gray_light"/>
 
         <TextView
             android:id="@+id/name"
@@ -33,10 +34,11 @@
     </RelativeLayout>
 
     <TextView
+        style="@style/text"
         android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:layout_margin="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -33,6 +33,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Citisnap" >
         <activity
+            android:name="com.bangkit.citisnap.ui.detailProfile.DetailProfileActivity"
+            android:exported="false" />
+        <activity
             android:name="com.bangkit.citisnap.ui.comment.CommentsActivity"
             android:exported="false" />
         <activity

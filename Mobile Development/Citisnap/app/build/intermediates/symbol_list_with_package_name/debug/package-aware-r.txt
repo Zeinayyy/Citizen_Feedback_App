@@ -1142,6 +1142,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -2987,8 +2988,10 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add
-drawable arrow_down
-drawable arrow_up
+drawable arrow_down_dark
+drawable arrow_down_light
+drawable arrow_up_dark
+drawable arrow_up_light
 drawable avd_hide_password
 drawable avd_show_password
 drawable back
@@ -3004,9 +3007,11 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_background
+drawable button_edit
 drawable camera
 drawable check
 drawable comment
+drawable comment_dark
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3134,10 +3139,11 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable person
-drawable profil
+drawable profile
 drawable search
 drawable search_bar
 drawable send
+drawable settings
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3356,6 +3362,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id firstComment
 id fitCenter
 id fitEnd
 id fitStart
@@ -3369,7 +3376,6 @@ id fragment_container_view_tag
 id frost
 id fullscreen_header
 id gallery
-id ganti
 id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
@@ -3421,7 +3427,6 @@ id locale
 id location
 id login
 id logoImg
-id logout
 id ltr
 id m3_side_sheet
 id marquee
@@ -3496,6 +3501,7 @@ id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
+id nestedScroll
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
@@ -3534,12 +3540,13 @@ id position
 id post
 id postLayout
 id pressed
-id profilFragment
+id profileFragment
 id profileImage
 id profileImageComment
+id profileImg
 id profileInfo
-id profilePict
 id progressBar
+id progressBarComment
 id progress_circular
 id progress_horizontal
 id radio
@@ -3599,6 +3606,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id send
+id settingsActivity
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3639,6 +3647,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swipeRefresh
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3830,6 +3839,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_post
 layout activity_comment
+layout activity_detail_profile
 layout activity_login
 layout activity_main
 layout activity_register
@@ -3855,7 +3865,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
 layout fragment_notifications
-layout fragment_profil
+layout fragment_profile
 layout fragment_search
 layout layout_item_comment
 layout layout_item_post
@@ -3921,6 +3931,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu bottom_nav_menu
+menu settings_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
@@ -3958,6 +3969,7 @@ string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
 string back_button
+string be_the_first_to_comment
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3997,6 +4009,7 @@ string common_signin_button_text_long
 string copy_toast_msg
 string default_web_client_id
 string description
+string edit_profile
 string email
 string email_error
 string empty_pass_error
@@ -4153,6 +4166,7 @@ string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string send
+string settings
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string sign_in
@@ -5277,8 +5291,11 @@ style button_google
 style button_navigation_bar
 style card
 style card_secondary
+style comment
 style divider
+style down_votes
 style text
+style up_votes
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -5431,6 +5448,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

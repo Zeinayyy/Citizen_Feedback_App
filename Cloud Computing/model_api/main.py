@@ -1,15 +1,33 @@
 import firebase_admin
 from firebase_admin import credentials, auth
 from flask import Flask, request, jsonify
+import torch
+from transformers import BertTokenizer, BertForSequenceClassification
 
+app = Flask(__name__)
 cred = credentials.Certificate("./servicesAcc.json")
 firebase_admin.initialize_app(cred)
 
-app = Flask(__name__)
+tokenizer = None
+model = None
+
+d = {
+    1: 'urgent',
+    2: 'Harus Di Selesaikan',
+    3: 'Biasa',
+    4: 'Aspirasi',
+    5: 'good aspiration'
+}
+
+def load_model_and_tokenizer():
+    global tokenizer, model
+    tokenizer = BertTokenizer.from_pretrained("indobenchmark/indobert-base-p1")
+    model = BertForSequenceClassification.from_pretrained("indobenchmark/indobert-base-p1")
+
+load_model_and_tokenizer()
 
 @app.route('/predict', methods=['POST'])
 def predict():
-
     # Mendapatkan token bearer dari header Authorization
     bearer_token = request.headers.get('Authorization')
 
@@ -34,7 +52,15 @@ def predict():
         token = bearer_token.split(' ')[1]
         decoded_token = auth.verify_id_token(token)
 
-        return jsonify({'data': text, 'statusCode': 200}), 200
+        input_text = data['text']
+
+        test = tokenizer.encode([input_text], return_tensors='pt')
+        output = model(test)
+
+        pred = int(torch.argmax(output.logits))+1
+        classification = d[pred]
+
+        return jsonify({'data': {'classification':classification, 'logits' : output.logits.tolist()}, 'statusCode': 200}), 200
     except auth.InvalidIdTokenError as e:
         error_message = str(e)
         return jsonify({'error': error_message, 'statusCode': 401}), 401

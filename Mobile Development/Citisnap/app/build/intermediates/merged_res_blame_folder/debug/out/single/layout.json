@@ -1,58 +1,70 @@
 [
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\fragment_notifications.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\fragment_notifications.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\fragment_search.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\activity_comment.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\activity_comment.xml"
+        "merged": "com.bangkit.citisnap.app-mergeDebugResources-57:/layout/layout_item_post.xml",
+        "source": "com.bangkit.citisnap.app-main-60:/layout/layout_item_post.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\layout_item_post.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\layout_item_post.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\layout_item_post.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\layout_item_post.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\activity_username.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\activity_username.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\activity_add_post.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_add_post.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\fragment_profil.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\fragment_profil.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\activity_detail_profile.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_detail_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\fragment_search.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\fragment_search.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\fragment_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\layout_item_comment.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\layout_item_comment.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\activity_add_post.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\activity_add_post.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-56:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-59:\\layout\\activity_main.xml"
+        "merged": "com.bangkit.citisnap.app-mergeDebugResources-57:/layout/layout_item_comment.xml",
+        "source": "com.bangkit.citisnap.app-main-60:/layout/layout_item_comment.xml"
     },
     {
-        "merged": "com.bangkit.citisnap.app-mergeDebugResources-56:/layout/activity_comment.xml",
-        "source": "com.bangkit.citisnap.app-main-59:/layout/activity_comment.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\activity_username.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_username.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-mergeDebugResources-57:/layout/fragment_profile.xml",
+        "source": "com.bangkit.citisnap.app-main-60:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\activity_comment.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-57:\\layout\\layout_item_comment.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\layout_item_comment.xml"
     }
 ]

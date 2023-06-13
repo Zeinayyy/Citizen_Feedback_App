@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.bangkit.citisnap.R;
@@ -32,14 +33,19 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final RecyclerView recycle;
 
   @NonNull
+  public final SwipeRefreshLayout swipeRefresh;
+
+  @NonNull
   public final Toolbar toolbar;
 
   private FragmentHomeBinding(@NonNull CoordinatorLayout rootView, @NonNull AppBarLayout appbar,
-      @NonNull ImageView logoImg, @NonNull RecyclerView recycle, @NonNull Toolbar toolbar) {
+      @NonNull ImageView logoImg, @NonNull RecyclerView recycle,
+      @NonNull SwipeRefreshLayout swipeRefresh, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.appbar = appbar;
     this.logoImg = logoImg;
     this.recycle = recycle;
+    this.swipeRefresh = swipeRefresh;
     this.toolbar = toolbar;
   }
 
@@ -88,6 +94,12 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.swipeRefresh;
+      SwipeRefreshLayout swipeRefresh = ViewBindings.findChildViewById(rootView, id);
+      if (swipeRefresh == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar;
       Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
@@ -95,7 +107,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((CoordinatorLayout) rootView, appbar, logoImg, recycle,
-          toolbar);
+          swipeRefresh, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        style="@style/background"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_alignParentTop="true" />
 
     <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolbar"
-        android:layout_above="@id/bottomNav">
+        android:layout_above="@id/bottomNav"
+        android:layout_below="@id/toolbar">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -49,6 +49,7 @@
                     android:textStyle="bold" />
             </RelativeLayout>
 
+
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="match_parent"
@@ -72,7 +73,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/image" />
-
 
             <RelativeLayout
                 android:id="@+id/rlVotes"
@@ -100,11 +100,11 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        style="@style/up_votes"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginEnd="10dp"
-                        android:contentDescription="@string/vote_up"
-                        android:src="@drawable/arrow_up" />
+                        android:contentDescription="@string/vote_up" />
 
                     <TextView
                         style="@style/text"
@@ -114,10 +114,10 @@
                         android:visibility="gone" />
 
                     <ImageView
+                        style="@style/down_votes"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:contentDescription="@string/vote_up"
-                        android:src="@drawable/arrow_down" />
+                        android:contentDescription="@string/vote_up" />
                 </LinearLayout>
 
                 <View
@@ -130,6 +130,16 @@
                     android:background="@color/gray_light" />
             </RelativeLayout>
 
+            <ProgressBar
+                android:id="@+id/progressBarComment"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:indeterminate="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rlVotes" />
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycle"
                 android:layout_width="match_parent"
@@ -140,14 +150,24 @@
             <RelativeLayout
                 android:id="@+id/end"
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
+                android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent">
 
+                <TextView
+                    android:id="@+id/firstComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/be_the_first_to_comment" />
+
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/end"
-                    android:contentDescription="@null" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/firstComment"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/end" />
 
             </RelativeLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -168,32 +188,32 @@
                 android:id="@+id/profileImageComment"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@mipmap/ic_launcher"
-                android:layout_centerVertical="true"/>
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_launcher" />
 
             <EditText
                 android:id="@+id/comment"
                 android:layout_width="290dp"
                 android:layout_height="match_parent"
-                android:layout_toEndOf="@id/profileImageComment"
                 android:layout_marginStart="10dp"
-                android:hint="@string/leave_a_comment"
-                android:inputType="textMultiLine"
+                android:layout_toEndOf="@id/profileImageComment"
                 android:backgroundTint="@android:color/transparent"
-                android:importantForAutofill="no" />
+                android:hint="@string/leave_a_comment"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine" />
 
             <TextView
                 android:id="@+id/send"
-                android:visibility="gone"
-                android:textColor="@color/orange"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/send"
                 android:layout_centerVertical="true"
-                android:layout_toEndOf="@id/comment"
-                android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
-                android:textSize="15sp" />
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@id/comment"
+                android:text="@string/send"
+                android:textColor="@color/orange"
+                android:textSize="15sp"
+                android:visibility="gone" />
 
         </RelativeLayout>
     </com.google.android.material.bottomnavigation.BottomNavigationView>

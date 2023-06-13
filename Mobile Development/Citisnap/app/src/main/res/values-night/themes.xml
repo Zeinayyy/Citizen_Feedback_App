@@ -6,11 +6,11 @@
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondary">@color/gray_medium</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/black</item>
         <!-- Customize your theme here. -->
     </style>
 
@@ -39,6 +39,18 @@
 
     <style name="background">
         <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="up_votes">
+        <item name="android:src">@drawable/arrow_up_dark</item>
+    </style>
+
+    <style name="comment">
+        <item name="android:src">@drawable/comment_dark</item>
+    </style>
+
+    <style name="down_votes">
+        <item name="android:src">@drawable/arrow_down_dark</item>
     </style>
 
     <style name="bottom_navigation">

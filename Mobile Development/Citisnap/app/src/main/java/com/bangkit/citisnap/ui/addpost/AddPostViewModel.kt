@@ -5,6 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.FirebaseStorage
@@ -42,7 +43,8 @@ class AddPostViewModel: ViewModel() {
                     val posts = hashMapOf(
                         "userId" to name,
                         "description" to description,
-                        "imageUrl" to downloadUri
+                        "imageUrl" to downloadUri,
+                        "timestamp" to FieldValue.serverTimestamp()
                     )
 
                     db.collection("posts")
@@ -69,7 +71,8 @@ class AddPostViewModel: ViewModel() {
             val posts = hashMapOf(
                 "userId" to name,
                 "description" to description,
-                "imageUrl" to "null"
+                "imageUrl" to "null",
+                "timestamp" to FieldValue.serverTimestamp()
             )
             db.collection("posts")
                 .add(posts)

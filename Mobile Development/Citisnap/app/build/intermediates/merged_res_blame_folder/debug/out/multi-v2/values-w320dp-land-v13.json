@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-55:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-56:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\6b016f9ea8198c284ece63aa99263152\\transformed\\material-1.9.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\9ff9f8887291681de90018a172ec549e\\transformed\\material-1.9.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

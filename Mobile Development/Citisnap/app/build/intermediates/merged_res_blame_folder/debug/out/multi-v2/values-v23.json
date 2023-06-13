@@ -1,10 +1,21 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-55:/values-v23/values-v23.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-56:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\9d786b4173842c716648f46287a9a7e7\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\93c04a9a38f2d6c557294380fae91aad\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\6d77591995ab51174f0b231bc0eec402\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,18 +34,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\a492423055c6314e938e663b9202d2ab\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\6b016f9ea8198c284ece63aa99263152\\transformed\\material-1.9.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\9ff9f8887291681de90018a172ec549e\\transformed\\material-1.9.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
