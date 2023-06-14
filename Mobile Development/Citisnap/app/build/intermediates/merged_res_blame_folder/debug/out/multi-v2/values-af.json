@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-56:/values-af/values-af.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-60:/values-af/values-af.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\a5db0ed5aff2725d4e1364da8b919372\\transformed\\play-services-basement-18.2.0\\res\\values-af\\values.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\69e55347de6e6ea1b7351f2c0b088cc0\\transformed\\navigation-ui-2.5.3\\res\\values-af\\values-af.xml",
+                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\0eba819857a8128370e94ca9322bee3a\\transformed\\navigation-ui-2.6.0\\res\\values-af\\values-af.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

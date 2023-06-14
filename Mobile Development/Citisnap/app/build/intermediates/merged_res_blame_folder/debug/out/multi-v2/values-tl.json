@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-56:/values-tl/values-tl.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-60:/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\226ed51d8e7ed511fc88b6412f6e0b38\\transformed\\play-services-base-18.0.1\\res\\values-tl\\values.xml",
@@ -91,6 +91,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\0eba819857a8128370e94ca9322bee3a\\transformed\\navigation-ui-2.6.0\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,169",
+                        "endColumns": "113,122",
+                        "endOffsets": "164,287"
+                    },
+                    "to": {
+                        "startLines": "123,124",
+                        "startColumns": "4,4",
+                        "startOffsets": "11613,11727",
+                        "endColumns": "113,122",
+                        "endOffsets": "11722,11845"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\3a27b315b686124a649d8497f5d651f4\\transformed\\browser-1.4.0\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -105,23 +122,6 @@
                         "startOffsets": "6929,7196,7301,7412",
                         "endColumns": "102,104,110,104",
                         "endOffsets": "7027,7296,7407,7512"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\69e55347de6e6ea1b7351f2c0b088cc0\\transformed\\navigation-ui-2.5.3\\res\\values-tl\\values-tl.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,169",
-                        "endColumns": "113,122",
-                        "endOffsets": "164,287"
-                    },
-                    "to": {
-                        "startLines": "123,124",
-                        "startColumns": "4,4",
-                        "startOffsets": "11613,11727",
-                        "endColumns": "113,122",
-                        "endOffsets": "11722,11845"
                     }
                 }
             ]

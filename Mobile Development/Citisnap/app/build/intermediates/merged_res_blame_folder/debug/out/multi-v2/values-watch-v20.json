@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-56:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-60:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\2798b75aafa2d5d67e956197d057eb93\\transformed\\play-services-auth-20.5.0\\res\\values-watch-v20\\values.xml",

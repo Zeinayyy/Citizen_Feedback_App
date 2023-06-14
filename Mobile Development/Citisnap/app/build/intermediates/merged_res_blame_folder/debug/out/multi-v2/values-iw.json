@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-56:/values-iw/values-iw.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-60:/values-iw/values-iw.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\69e55347de6e6ea1b7351f2c0b088cc0\\transformed\\navigation-ui-2.5.3\\res\\values-iw\\values-iw.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,161",
-                        "endColumns": "105,119",
-                        "endOffsets": "156,276"
-                    },
-                    "to": {
-                        "startLines": "125,126",
-                        "startColumns": "4,4",
-                        "startOffsets": "10898,11004",
-                        "endColumns": "105,119",
-                        "endOffsets": "10999,11119"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\226ed51d8e7ed511fc88b6412f6e0b38\\transformed\\play-services-base-18.0.1\\res\\values-iw\\values.xml",
                     "from": {
@@ -52,6 +35,23 @@
                         "startOffsets": "414,519,619,727,811,913,1029,1108,1186,1277,1371,1465,1559,1659,1752,1847,1940,2031,2123,2204,2309,2412,2510,2615,2717,2819,2973,11199",
                         "endColumns": "104,99,107,83,101,115,78,77,90,93,93,93,99,92,94,92,90,91,80,104,102,97,104,101,101,153,96,81",
                         "endOffsets": "514,614,722,806,908,1024,1103,1181,1272,1366,1460,1554,1654,1747,1842,1935,2026,2118,2199,2304,2407,2505,2610,2712,2814,2968,3065,11276"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\0eba819857a8128370e94ca9322bee3a\\transformed\\navigation-ui-2.6.0\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,119",
+                        "endOffsets": "156,276"
+                    },
+                    "to": {
+                        "startLines": "125,126",
+                        "startColumns": "4,4",
+                        "startOffsets": "10898,11004",
+                        "endColumns": "105,119",
+                        "endOffsets": "10999,11119"
                     }
                 },
                 {

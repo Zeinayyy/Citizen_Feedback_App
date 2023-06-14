@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-56:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-60:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\9ff9f8887291681de90018a172ec549e\\transformed\\material-1.9.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -108,7 +108,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\69e55347de6e6ea1b7351f2c0b088cc0\\transformed\\navigation-ui-2.5.3\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\0eba819857a8128370e94ca9322bee3a\\transformed\\navigation-ui-2.6.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    style="@style/background"
+    style="@style/background_comment"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -47,6 +47,30 @@
                     android:layout_toEndOf="@+id/profileImage"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/rlUrgency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:visibility="gone"
+                    android:layout_toEndOf="@id/name"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/button_background"
+                    android:backgroundTint="@color/red">
+
+                    <TextView
+                        android:id="@+id/urgency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </RelativeLayout>
             </RelativeLayout>
 
 
@@ -100,6 +124,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/actionUp"
                         style="@style/up_votes"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
@@ -107,6 +132,7 @@
                         android:contentDescription="@string/vote_up" />
 
                     <TextView
+                        android:id="@+id/votes"
                         style="@style/text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -114,6 +140,7 @@
                         android:visibility="gone" />
 
                     <ImageView
+                        android:id="@+id/actionDown"
                         style="@style/down_votes"
                         android:layout_width="30dp"
                         android:layout_height="30dp"

@@ -1,6 +1,8 @@
 package com.bangkit.citisnap.ui.comment
 
 import android.content.Intent
+import android.content.res.ColorStateList
+import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -9,6 +11,7 @@ import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bangkit.citisnap.R
@@ -45,9 +48,12 @@ class CommentsActivity : AppCompatActivity() {
         commentsViewModel = ViewModelProvider(this)[CommentsViewModel::class.java]
         commentsViewModel.getDataComments(postId)
         commentsViewModel.getDataPost(postId)
+        commentsViewModel.votesDataUser(postId)
         commentsViewModel.dataPostList.observe(this){ dataPost(it) }
         commentsViewModel.isCommentLoading.observe(this){ showLoadingComment(it)}
         commentsViewModel.updateUI.observe(this){ updateUI(it) }
+        commentsViewModel.votesUp.observe(this){ getDataVotes(it) }
+        commentsViewModel.votes.observe(this){ votesCount(it) }
         commentsViewModel.commentsAdapter.observe(this){
             binding.recycle.adapter = it
             if (it.itemCount == 0){
@@ -73,8 +79,42 @@ class CommentsActivity : AppCompatActivity() {
             binding.nestedScroll.smoothScrollTo(0,0)
         }
 
+        binding.actionUp.setOnClickListener {
+            commentsViewModel.votesData(true, postId)
+        }
+
+        binding.actionDown.setOnClickListener {
+            commentsViewModel.votesData(false, postId)
+        }
+
         addTextChangeListener(binding.comment, binding.send)
 
+
+    }
+
+    private fun votesCount(voteCount: Boolean) {
+        if (voteCount) binding.votes.visibility = View.VISIBLE else binding.votes.visibility = View.GONE
+    }
+
+    private fun getDataVotes(isVotes: Int){
+        val colorVoteUp = ContextCompat.getColor(this, R.color.orange)
+        val colorVoteDown = ContextCompat.getColor(this, R.color.red)
+        when(isVotes){
+            1 ->{
+                binding.actionUp.backgroundTintList =
+                    ColorStateList.valueOf(colorVoteUp)
+                binding.actionDown.backgroundTintList = null
+            }
+            2 ->{
+                binding.actionDown.backgroundTintList =
+                    ColorStateList.valueOf(colorVoteDown)
+                binding.actionUp.backgroundTintList = null
+            }
+            3 -> {
+                binding.actionUp.backgroundTintList = null
+                binding.actionDown.backgroundTintList = null
+            }
+        }
 
     }
 
@@ -82,9 +122,43 @@ class CommentsActivity : AppCompatActivity() {
         val name = listData[0]
         val desc = listData[1]
         val photoProf = listData[2]
+        val votes = listData[4]
+
+        when (listData[3]) {
+            "Harus Di Selesaikan" -> {
+                binding.rlUrgency.visibility = View.VISIBLE
+                val colorStateList = ColorStateList.valueOf(Color.YELLOW)
+                binding.rlUrgency.backgroundTintList = colorStateList
+                binding.urgency.text = this.getString(R.string.must_be_resolved)
+            }
+            "urgent" -> {
+                val colorStateList = ColorStateList.valueOf(Color.RED)
+                binding.rlUrgency.backgroundTintList = colorStateList
+                binding.rlUrgency.visibility = View.VISIBLE
+                binding.urgency.text = this.getString(R.string.urgent)
+            }
+            "Aspirasi" -> {
+                val color = ContextCompat.getColorStateList(this, R.color.blue)
+                binding.rlUrgency.backgroundTintList = color
+                binding.rlUrgency.visibility = View.VISIBLE
+                binding.urgency.text = this.getString(R.string.aspiration)
+            }
+            "good aspiration" -> {
+                val color = ContextCompat.getColorStateList(this, R.color.blue_sky)
+                binding.rlUrgency.backgroundTintList = color
+                binding.urgency.text = this.getString(R.string.good_aspiration)
+                binding.rlUrgency.visibility = View.VISIBLE
+            }
+        }
 
         binding.name.text = name
         binding.description.text = desc
+        binding.votes.text = buildString {
+            append(votes)
+            append(" ")
+            append(applicationContext.getString(R.string.vote))
+        }
+
         Glide.with(this@CommentsActivity).load(photoProf).into(binding.profileImage)
     }
 

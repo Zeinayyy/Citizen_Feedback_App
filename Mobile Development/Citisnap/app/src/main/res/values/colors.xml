@@ -14,4 +14,9 @@
     <color name="search_bar">#E0DFDF</color>
     <color name="dark">#474D52</color>
     <color name="gray_medium">#CCCCCC</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFD700</color>
+    <color name="blue">#29C5F6</color>
+    <color name="blue_sky">#71DFFB</color>
+    <color name="blue_link">#0000EE  </color>
 </resources>

@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.bangkit.citisnap.R;
@@ -26,11 +27,15 @@ public final class FragmentSearchBinding implements ViewBinding {
   @NonNull
   public final EditText search;
 
+  @NonNull
+  public final SwipeRefreshLayout swipeRefresh;
+
   private FragmentSearchBinding(@NonNull CoordinatorLayout rootView, @NonNull RecyclerView recycle,
-      @NonNull EditText search) {
+      @NonNull EditText search, @NonNull SwipeRefreshLayout swipeRefresh) {
     this.rootView = rootView;
     this.recycle = recycle;
     this.search = search;
+    this.swipeRefresh = swipeRefresh;
   }
 
   @Override
@@ -72,7 +77,13 @@ public final class FragmentSearchBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentSearchBinding((CoordinatorLayout) rootView, recycle, search);
+      id = R.id.swipeRefresh;
+      SwipeRefreshLayout swipeRefresh = ViewBindings.findChildViewById(rootView, id);
+      if (swipeRefresh == null) {
+        break missingId;
+      }
+
+      return new FragmentSearchBinding((CoordinatorLayout) rootView, recycle, search, swipeRefresh);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

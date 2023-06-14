@@ -1394,6 +1394,9 @@ color background_material_dark
 color background_material_light
 color black
 color black_primary
+color blue
+color blue_link
+color blue_sky
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1475,6 +1478,7 @@ color gray_light
 color gray_medium
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2112,6 +2116,7 @@ color primary_text_disabled_material_light
 color purple_200
 color purple_500
 color purple_700
+color red
 color ripple_material_dark
 color ripple_material_light
 color search_bar
@@ -2130,6 +2135,7 @@ color teal_700
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2988,6 +2994,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add
+drawable announce
 drawable arrow_down_dark
 drawable arrow_down_light
 drawable arrow_up_dark
@@ -3009,6 +3016,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable button_background
 drawable button_edit
 drawable camera
+drawable card
 drawable check
 drawable comment
 drawable comment_dark
@@ -3036,9 +3044,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit
 drawable email
 drawable end
-drawable filter
 drawable gallery
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -3125,6 +3133,7 @@ drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable nopostimage
 drawable notification
 drawable notification_action_background
 drawable notification_bg
@@ -3144,6 +3153,7 @@ drawable search
 drawable search_bar
 drawable send
 drawable settings
+drawable tab_indicator
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3202,7 +3212,6 @@ id accessibility_custom_action_9
 id actionDown
 id actionDownUp
 id actionUp
-id actionUpLayout
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -3244,12 +3253,13 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id back
 id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
+id bio
+id bioLayout
 id blocking
 id bottom
 id bottomNav
@@ -3307,6 +3317,7 @@ id custom
 id customPanel
 id cut
 id dark
+id darkMode
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3345,6 +3356,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id edit_profile
 id edit_query
 id elastic
 id email
@@ -3354,6 +3366,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id error_msg
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3400,6 +3413,7 @@ id ignore
 id ignoreRequest
 id image
 id imageCard
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3407,6 +3421,7 @@ id info
 id invisible
 id inward
 id italic
+id item
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -3421,12 +3436,13 @@ id line3
 id linear
 id linearLayout
 id linearLayout2
+id link
 id listMode
 id list_item
 id locale
-id location
 id login
 id logoImg
+id logout
 id ltr
 id m3_side_sheet
 id marquee
@@ -3490,6 +3506,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id name
+id nameLayout
 id nav_controller_view_tag
 id nav_host_fragment_activity_main
 id nav_host_fragment_container
@@ -3505,6 +3522,7 @@ id nestedScroll
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id noPosts
 id noScroll
 id noState
 id none
@@ -3547,6 +3565,7 @@ id profileImg
 id profileInfo
 id progressBar
 id progressBarComment
+id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
@@ -3555,17 +3574,19 @@ id rectangles
 id recycle
 id register
 id relativeLayout
-id relativeLayout2
 id relativeLayout3
+id retry_button
 id reverseSawtooth
 id right
 id rightToLeft
 id right_icon
 id right_side
+id rlUrgency
 id rlVotes
 id rounded
 id row_index_key
 id rtl
+id saveChanges
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3648,7 +3669,9 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id swipeRefresh
+id switchTheme
 id tabMode
+id tabs
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3699,12 +3722,14 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id urgency
 id useLogo
 id user
 id username
 id usernameLayout
 id vertical_only
 id view_offset_helper
+id view_pager
 id view_transition
 id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
@@ -3712,6 +3737,8 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id vote_up_count
+id votes
 id west
 id wide
 id withText
@@ -3840,9 +3867,12 @@ layout abc_tooltip
 layout activity_add_post
 layout activity_comment
 layout activity_detail_profile
+layout activity_edit_profile
 layout activity_login
 layout activity_main
 layout activity_register
+layout activity_search
+layout activity_settings
 layout activity_splash_screen
 layout activity_username
 layout browser_actions_context_menu_page
@@ -3866,9 +3896,13 @@ layout design_text_input_start_icon
 layout fragment_home
 layout fragment_notifications
 layout fragment_profile
+layout fragment_recent
 layout fragment_search
+layout fragment_urgent
+layout item_loading
 layout layout_item_comment
 layout layout_item_post
+layout layout_item_user
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3933,6 +3967,7 @@ layout support_simple_spinner_dropdown_item
 menu bottom_nav_menu
 menu settings_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation mobile_navigation
 plurals mtrl_badge_content_description
@@ -3968,8 +4003,10 @@ string add_post
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string aspiration
 string back_button
 string be_the_first_to_comment
+string bio
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3988,6 +4025,8 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string coming_soon
+string common
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -4007,8 +4046,10 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
+string dark_mode
 string default_web_client_id
 string description
+string dest_title
 string edit_profile
 string email
 string email_error
@@ -4026,6 +4067,7 @@ string filter
 string forget_password
 string full_name
 string gcm_defaultSenderId
+string good_aspiration
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
@@ -4036,10 +4078,12 @@ string hint_post
 string home
 string icon_content_description
 string item_view_role_description
+string language
 string leave_a_comment
 string login
 string login_to_register
 string logo
+string logout
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
 string m3_ref_typeface_plain_medium
@@ -4139,10 +4183,13 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string must_be_resolved
+string name
 string name_error
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string next
+string no_posts_yet
 string notifications
 string or_sign_in_with
 string password
@@ -4153,6 +4200,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string post
+string post_and_provide_feedback_to_the_government
 string post_image
 string profil
 string profil_picture
@@ -4160,6 +4208,7 @@ string profile_pict
 string project_id
 string register
 string register_to_login
+string save_changes
 string search
 string search_menu_title
 string searchbar_scrolling_view_behavior
@@ -4173,12 +4222,16 @@ string sign_in
 string sign_in_with_google
 string sign_up
 string status_bar_notification_info_overflow
+string tab_layout_recent
+string tab_layout_urgent
 string tagline
 string tagline_2
 string thread
+string urgent
 string username
 string username_already_exist
 string username_error
+string vote
 string vote_down
 string vote_up
 style AlertDialog_AppCompat
@@ -4465,6 +4518,8 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style CustomTabsLayout
+style CustomTextAppearance
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text
@@ -5285,6 +5340,7 @@ style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
 style background
 style backgroundTint
+style background_comment
 style bottom_navigation
 style button
 style button_google
@@ -5471,4 +5527,5 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml file_paths
 xml image_share_filepaths

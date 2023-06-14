@@ -1,11 +1,11 @@
 package com.bangkit.citisnap.ui.login
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+import androidx.lifecycle.*
+import com.bangkit.citisnap.preferences.Preferences
 import com.google.firebase.auth.FirebaseAuth
+import kotlinx.coroutines.launch
 
-class LoginViewModel: ViewModel() {
+class LoginViewModel(): ViewModel() {
 
     private val _message = MutableLiveData<String>()
     val message: LiveData<String> get() = _message

@@ -4,51 +4,43 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
+import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.LinearLayoutManager
+import com.bangkit.citisnap.R
+import com.bangkit.citisnap.adapter.SectionsPagerAdapter
 import com.bangkit.citisnap.databinding.FragmentHomeBinding
-import com.bangkit.citisnap.ui.main.MainActivity
+import com.google.android.material.tabs.TabLayoutMediator
 
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
-    private lateinit var homeViewModel: HomeViewModel
-    private var isDataLoaded = false
+
+    companion object {
+        @StringRes
+        private val TAB_TITLES = intArrayOf(
+            R.string.tab_layout_recent,
+            R.string.tab_layout_urgent
+        )
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentHomeBinding.inflate(layoutInflater)
-
-        homeViewModel = ViewModelProvider(requireActivity())[HomeViewModel::class.java]
-
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.recycle.layoutManager = LinearLayoutManager(context)
+        val sectionsPagerAdapter = SectionsPagerAdapter(this)
+        val viewpager = binding.viewPager
+        viewpager.adapter = sectionsPagerAdapter
+        val tabs = binding.tabs
+        TabLayoutMediator(tabs, viewpager) { tab, position ->
+            tab.text = resources.getString(TAB_TITLES[position])
+        }.attach()
 
-        if (!isDataLoaded) {
-            homeViewModel.getListPost()
-            isDataLoaded = true
-        }
-
-        binding.swipeRefresh.setOnRefreshListener {
-            homeViewModel.getListPost()
-            isRefreshing(false)
-        }
-
-        homeViewModel.isLoading.observe(requireActivity()){ isRefreshing(it) }
-        homeViewModel.postAdapter.observe(requireActivity()){ binding.recycle.adapter = it}
-        homeViewModel.message.observe(requireActivity()){ Toast.makeText(requireContext(), it.toString(), Toast.LENGTH_SHORT).show() }
-    }
-
-    fun isRefreshing(state: Boolean){
-        binding.swipeRefresh.isRefreshing = state
     }
 }

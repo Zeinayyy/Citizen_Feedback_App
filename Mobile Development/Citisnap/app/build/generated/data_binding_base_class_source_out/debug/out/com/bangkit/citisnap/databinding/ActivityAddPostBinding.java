@@ -8,9 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
@@ -26,9 +26,6 @@ public final class ActivityAddPostBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView back;
-
-  @NonNull
   public final ImageView camera;
 
   @NonNull
@@ -39,9 +36,6 @@ public final class ActivityAddPostBinding implements ViewBinding {
 
   @NonNull
   public final ImageView gallery;
-
-  @NonNull
-  public final ImageView location;
 
   @NonNull
   public final ImageView photo;
@@ -56,25 +50,22 @@ public final class ActivityAddPostBinding implements ViewBinding {
   public final ProgressBar progressBar;
 
   @NonNull
-  public final RelativeLayout relativeLayout2;
+  public final Toolbar toolbar;
 
-  private ActivityAddPostBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView back,
-      @NonNull ImageView camera, @NonNull CardView cardView, @NonNull EditText description,
-      @NonNull ImageView gallery, @NonNull ImageView location, @NonNull ImageView photo,
-      @NonNull CircleImageView photoProfile, @NonNull Button post, @NonNull ProgressBar progressBar,
-      @NonNull RelativeLayout relativeLayout2) {
+  private ActivityAddPostBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView camera,
+      @NonNull CardView cardView, @NonNull EditText description, @NonNull ImageView gallery,
+      @NonNull ImageView photo, @NonNull CircleImageView photoProfile, @NonNull Button post,
+      @NonNull ProgressBar progressBar, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
-    this.back = back;
     this.camera = camera;
     this.cardView = cardView;
     this.description = description;
     this.gallery = gallery;
-    this.location = location;
     this.photo = photo;
     this.photoProfile = photoProfile;
     this.post = post;
     this.progressBar = progressBar;
-    this.relativeLayout2 = relativeLayout2;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -104,12 +95,6 @@ public final class ActivityAddPostBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.back;
-      ImageView back = ViewBindings.findChildViewById(rootView, id);
-      if (back == null) {
-        break missingId;
-      }
-
       id = R.id.camera;
       ImageView camera = ViewBindings.findChildViewById(rootView, id);
       if (camera == null) {
@@ -131,12 +116,6 @@ public final class ActivityAddPostBinding implements ViewBinding {
       id = R.id.gallery;
       ImageView gallery = ViewBindings.findChildViewById(rootView, id);
       if (gallery == null) {
-        break missingId;
-      }
-
-      id = R.id.location;
-      ImageView location = ViewBindings.findChildViewById(rootView, id);
-      if (location == null) {
         break missingId;
       }
 
@@ -164,14 +143,14 @@ public final class ActivityAddPostBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.relativeLayout2;
-      RelativeLayout relativeLayout2 = ViewBindings.findChildViewById(rootView, id);
-      if (relativeLayout2 == null) {
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
         break missingId;
       }
 
-      return new ActivityAddPostBinding((ConstraintLayout) rootView, back, camera, cardView,
-          description, gallery, location, photo, photoProfile, post, progressBar, relativeLayout2);
+      return new ActivityAddPostBinding((ConstraintLayout) rootView, camera, cardView, description,
+          gallery, photo, photoProfile, post, progressBar, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -25,36 +25,51 @@ class CommentsViewModel: ViewModel() {
     private val _message = MutableLiveData<String>()
     val message: LiveData<String> get() = _message
 
+    private val _votes = MutableLiveData<Boolean>()
+    val votes: LiveData<Boolean> get() = _votes
+
+    private val _votesUp = MutableLiveData<Int>()
+    val votesUp: LiveData<Int> get() = _votesUp
+
 
     fun getDataPost(postId: String){
 
         val firestore = FirebaseFirestore.getInstance()
         val collectionRef = firestore.collection("posts")
 
-        collectionRef.get()
-            .addOnSuccessListener { documents->
-                for (document in documents){
-                    if (document.id == postId){
-                        val name = document.getString("userId").toString()
-                        val description = document.getString("description").toString()
-                        val imageUrl = document.getString("imageUrl").toString()
+        collectionRef
+            .addSnapshotListener() { documents, e ->
+                if (e != null) {
+                    _message.value = e.message.toString()
+                }
 
-                        val db = Firebase.firestore
-                        db.collection("users").document(name)
-                            .get()
-                            .addOnSuccessListener{ documentsUser->
-                                val profilePict = documentsUser.getString("profileImg").toString()
-                                _dataPostList.value = listOf(name, description, profilePict)
+                if (documents != null) {
+                    for (document in documents){
+                        if (document.id == postId){
+                            val name = document.getString("userId").toString()
+                            val description = document.getString("description").toString()
+                            val imageUrl = document.getString("imageUrl").toString()
+                            val urgency = document.getString("urgency").toString()
+                            val votes = document.getLong("votes")
+
+                            if (votes != null) {
+                                _votes.value = votes > 0
                             }
 
-                        if (imageUrl != "null"){
-                            _imagePost.value = imageUrl
+                            val db = Firebase.firestore
+                            db.collection("users").document(name)
+                                .get()
+                                .addOnSuccessListener{ documentsUser->
+                                    val profilePict = documentsUser.getString("profileImg").toString()
+                                    _dataPostList.value = listOf(name, description, profilePict, urgency, votes.toString())
+                                }
+
+                            if (imageUrl != "null"){
+                                _imagePost.value = imageUrl
+                            }
                         }
                     }
                 }
-            }
-            .addOnFailureListener {
-                _message.value = it.message.toString()
             }
     }
 
@@ -126,4 +141,109 @@ class CommentsViewModel: ViewModel() {
                 _message.value = it.message.toString()
             }
     }
+
+    fun votesData(vote: Boolean, postId: String) {
+        val username = Firebase.auth.currentUser?.displayName.toString()
+        val db = Firebase.firestore
+        if (vote){
+            db.collection("posts").document(postId)
+                .collection("votes").document(username)
+                .get()
+                .addOnSuccessListener { documents ->
+                    when (documents.getBoolean("vote_down")) {
+                        true -> {
+                            val votes = hashMapOf(
+                                "vote_up" to true,
+                                "vote_down" to false
+                            )
+
+                            db.collection("posts").document(postId)
+                                .collection("votes").document(username)
+                                .set(votes)
+                        }
+                        false -> {
+
+                            db.collection("posts").document(postId)
+                                .collection("votes").document(username)
+                                .delete()
+                        }
+                        else -> {
+                            val votes = hashMapOf(
+                                "vote_up" to true,
+                                "vote_down" to false
+                            )
+
+                            db.collection("posts").document(postId)
+                                .collection("votes").document(username)
+                                .set(votes)
+                        }
+                    }
+                }
+        }else{
+            db.collection("posts").document(postId)
+                .collection("votes").document(username)
+                .get()
+                .addOnSuccessListener { documents ->
+                    when (documents.getBoolean("vote_up")) {
+                        true -> {
+                            val votes = hashMapOf(
+                                "vote_up" to false,
+                                "vote_down" to true
+                            )
+
+                            db.collection("posts").document(postId)
+                                .collection("votes").document(username)
+                                .set(votes)
+                        }
+                        false -> {
+
+                            db.collection("posts").document(postId)
+                                .collection("votes").document(username)
+                                .delete()
+                        }
+                        else -> {
+                            val votes = hashMapOf(
+                                "vote_up" to false,
+                                "vote_down" to true
+                            )
+
+                            db.collection("posts").document(postId)
+                                .collection("votes").document(username)
+                                .set(votes)
+                        }
+                    }
+                }
+        }
+    }
+
+    fun votesDataUser(postId: String){
+        val username = Firebase.auth.currentUser?.displayName.toString()
+        val db = Firebase.firestore
+
+        db.collection("posts").document(postId).collection("votes").document(username)
+            .addSnapshotListener { documentSnapshot, e ->
+                if (e != null) {
+                    _message.value = e.message.toString()
+                }
+
+                if (documentSnapshot != null && documentSnapshot.exists()) {
+                    val voteUp = documentSnapshot.getBoolean("vote_up")
+                    val voteDown = documentSnapshot.getBoolean("vote_down")
+
+
+                    if (voteUp == true) {
+                        _votesUp.value = 1
+
+                    } else if (voteDown == true) {
+                        _votesUp.value = 2
+
+                    }
+                } else {
+                    _votesUp.value = 3
+
+                }
+
+            }
+    }
+
 }

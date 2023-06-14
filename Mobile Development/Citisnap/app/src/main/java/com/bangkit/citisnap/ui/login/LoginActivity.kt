@@ -2,6 +2,7 @@ package com.bangkit.citisnap.ui.login
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
@@ -9,15 +10,20 @@ import android.text.TextWatcher
 import android.view.View
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
 import com.bangkit.citisnap.R
 import com.bangkit.citisnap.databinding.ActivityLoginBinding
+import com.bangkit.citisnap.preferences.Preferences
 import com.bangkit.citisnap.ui.main.MainActivity
 import com.bangkit.citisnap.ui.register.UsernameRegisterActivity
+import com.google.android.play.integrity.internal.c
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
+private val Context.dataStore: DataStore<androidx.datastore.preferences.core.Preferences> by preferencesDataStore(name = "DataUser")
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityLoginBinding
@@ -72,12 +78,14 @@ class LoginActivity : AppCompatActivity() {
         return isValid
     }
 
+
     private fun updateUI(state: Boolean) {
         if (state) {
             startActivity(Intent(this@LoginActivity, MainActivity::class.java))
             finish()
         }
     }
+
 
     private fun showLoading(state: Boolean) {
         binding.progressBar.visibility = if (state) View.VISIBLE else View.GONE

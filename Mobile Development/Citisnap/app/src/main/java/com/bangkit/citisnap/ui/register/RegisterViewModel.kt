@@ -34,7 +34,8 @@ class RegisterViewModel : ViewModel() {
                         "username" to username,
                         "name" to username,
                         "uid" to currentUser?.uid,
-                        "profileImg" to profilePict
+                        "profileImg" to profilePict,
+                        "bio" to ""
                     )
 
                     db.collection("users").document(username)

@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="CustomTabsLayout">
+        <item name="android:background">@color/black</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+    <style name="CustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+    </style>
     <style name="Theme.Citisnap" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/orange</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
         
-        <item name="colorSecondary">@color/gray_medium</item>
+        <item name="colorSecondary">@color/white</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         
         <item name="android:statusBarColor">@color/black</item>
         
+        <item name="android:itemBackground">@color/white</item>
     </style>
     <style name="background">
         <item name="android:background">@color/black</item>
     </style>
     <style name="backgroundTint">
         <item name="android:backgroundTint">@color/white</item>
+    </style>
+    <style name="background_comment">
+        <item name="android:background">@color/black</item>
     </style>
     <style name="bottom_navigation">
         <item name="android:background">@drawable/bot_navigation_dark</item>
@@ -54,12 +66,12 @@
         <item name="android:background">@color/white</item>
     </style>
     <style name="down_votes">
-        <item name="android:src">@drawable/arrow_down_dark</item>
+        <item name="android:background">@drawable/arrow_down_dark</item>
     </style>
     <style name="text">
         <item name="android:textColor">@color/white</item>
     </style>
     <style name="up_votes">
-        <item name="android:src">@drawable/arrow_up_dark</item>
+        <item name="android:background">@drawable/arrow_up_dark</item>
     </style>
 </resources>

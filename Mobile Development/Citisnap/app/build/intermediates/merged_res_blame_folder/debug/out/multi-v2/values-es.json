@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-56:/values-es/values-es.xml",
+            "outputFile": "com.bangkit.citisnap.app-mergeDebugResources-60:/values-es/values-es.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\9ff9f8887291681de90018a172ec549e\\transformed\\material-1.9.0\\res\\values-es\\values-es.xml",
@@ -20,6 +20,23 @@
                         "endLines": "5,33,34,35,36,37,45,46,47,67,68,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,125",
                         "endColumns": "12,80,78,86,100,95,103,121,80,64,94,80,62,88,63,68,62,73,63,55,117,57,61,55,79,138,88,81,140,80,79,89,55,55,65,78,81,87,73,76,69,78,83,83,91,99,73,80,101,52,66,92,88,61,63,62,112,92,103,93,59,59,82",
                         "endOffsets": "323,3135,3214,3301,3402,3498,4334,4456,4537,7046,7141,7543,7606,7695,7759,7828,7891,7965,8029,8085,8203,8261,8323,8379,8459,8598,8687,8769,8910,8991,9071,9161,9217,9273,9339,9418,9500,9588,9662,9739,9809,9888,9972,10056,10148,10248,10322,10403,10505,10558,10625,10718,10807,10869,10933,10996,11109,11202,11306,11400,11460,11520,11842"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\0eba819857a8128370e94ca9322bee3a\\transformed\\navigation-ui-2.6.0\\res\\values-es\\values-es.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,174",
+                        "endColumns": "118,119",
+                        "endOffsets": "169,289"
+                    },
+                    "to": {
+                        "startLines": "123,124",
+                        "startColumns": "4,4",
+                        "startOffsets": "11525,11644",
+                        "endColumns": "118,119",
+                        "endOffsets": "11639,11759"
                     }
                 },
                 {
@@ -54,23 +71,6 @@
                         "startOffsets": "3503,3602,3704,3804,3902,4009,4115,11930",
                         "endColumns": "98,101,99,97,106,105,119,100",
                         "endOffsets": "3597,3699,3799,3897,4004,4110,4230,12026"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Iftah\\.gradle\\caches\\transforms-3\\69e55347de6e6ea1b7351f2c0b088cc0\\transformed\\navigation-ui-2.5.3\\res\\values-es\\values-es.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,174",
-                        "endColumns": "118,119",
-                        "endOffsets": "169,289"
-                    },
-                    "to": {
-                        "startLines": "123,124",
-                        "startColumns": "4,4",
-                        "startOffsets": "11525,11644",
-                        "endColumns": "118,119",
-                        "endOffsets": "11639,11759"
                     }
                 },
                 {

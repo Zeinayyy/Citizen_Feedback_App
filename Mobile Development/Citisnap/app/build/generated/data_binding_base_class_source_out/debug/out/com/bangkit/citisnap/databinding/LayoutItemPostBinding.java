@@ -21,16 +21,13 @@ import java.lang.String;
 
 public final class LayoutItemPostBinding implements ViewBinding {
   @NonNull
-  private final CardView rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final ImageView actionDown;
 
   @NonNull
   public final ImageView actionUp;
-
-  @NonNull
-  public final RelativeLayout actionUpLayout;
 
   @NonNull
   public final ConstraintLayout card;
@@ -59,16 +56,24 @@ public final class LayoutItemPostBinding implements ViewBinding {
   @NonNull
   public final RelativeLayout profileInfo;
 
-  private LayoutItemPostBinding(@NonNull CardView rootView, @NonNull ImageView actionDown,
-      @NonNull ImageView actionUp, @NonNull RelativeLayout actionUpLayout,
-      @NonNull ConstraintLayout card, @NonNull ImageView comment, @NonNull TextView desc,
-      @NonNull RelativeLayout iconGroup, @NonNull ImageView image, @NonNull CardView imageCard,
-      @NonNull TextView name, @NonNull CircleImageView profileImage,
-      @NonNull RelativeLayout profileInfo) {
+  @NonNull
+  public final RelativeLayout rlUrgency;
+
+  @NonNull
+  public final TextView urgency;
+
+  @NonNull
+  public final TextView voteUpCount;
+
+  private LayoutItemPostBinding(@NonNull RelativeLayout rootView, @NonNull ImageView actionDown,
+      @NonNull ImageView actionUp, @NonNull ConstraintLayout card, @NonNull ImageView comment,
+      @NonNull TextView desc, @NonNull RelativeLayout iconGroup, @NonNull ImageView image,
+      @NonNull CardView imageCard, @NonNull TextView name, @NonNull CircleImageView profileImage,
+      @NonNull RelativeLayout profileInfo, @NonNull RelativeLayout rlUrgency,
+      @NonNull TextView urgency, @NonNull TextView voteUpCount) {
     this.rootView = rootView;
     this.actionDown = actionDown;
     this.actionUp = actionUp;
-    this.actionUpLayout = actionUpLayout;
     this.card = card;
     this.comment = comment;
     this.desc = desc;
@@ -78,11 +83,14 @@ public final class LayoutItemPostBinding implements ViewBinding {
     this.name = name;
     this.profileImage = profileImage;
     this.profileInfo = profileInfo;
+    this.rlUrgency = rlUrgency;
+    this.urgency = urgency;
+    this.voteUpCount = voteUpCount;
   }
 
   @Override
   @NonNull
-  public CardView getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -116,12 +124,6 @@ public final class LayoutItemPostBinding implements ViewBinding {
       id = R.id.actionUp;
       ImageView actionUp = ViewBindings.findChildViewById(rootView, id);
       if (actionUp == null) {
-        break missingId;
-      }
-
-      id = R.id.actionUpLayout;
-      RelativeLayout actionUpLayout = ViewBindings.findChildViewById(rootView, id);
-      if (actionUpLayout == null) {
         break missingId;
       }
 
@@ -179,8 +181,27 @@ public final class LayoutItemPostBinding implements ViewBinding {
         break missingId;
       }
 
-      return new LayoutItemPostBinding((CardView) rootView, actionDown, actionUp, actionUpLayout,
-          card, comment, desc, iconGroup, image, imageCard, name, profileImage, profileInfo);
+      id = R.id.rlUrgency;
+      RelativeLayout rlUrgency = ViewBindings.findChildViewById(rootView, id);
+      if (rlUrgency == null) {
+        break missingId;
+      }
+
+      id = R.id.urgency;
+      TextView urgency = ViewBindings.findChildViewById(rootView, id);
+      if (urgency == null) {
+        break missingId;
+      }
+
+      id = R.id.vote_up_count;
+      TextView voteUpCount = ViewBindings.findChildViewById(rootView, id);
+      if (voteUpCount == null) {
+        break missingId;
+      }
+
+      return new LayoutItemPostBinding((RelativeLayout) rootView, actionDown, actionUp, card,
+          comment, desc, iconGroup, image, imageCard, name, profileImage, profileInfo, rlUrgency,
+          urgency, voteUpCount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,298 +1,398 @@
 [
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_bot_navigation.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\bot_navigation.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_comment.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_comment.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_home.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\home.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_send.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\send.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_arrow_down_light.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\arrow_down_light.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.bangkit.citisnap.app-merged_res-58:/layout_layout_item_comment.xml.flat",
-        "source": "com.bangkit.citisnap.app-main-60:/layout/layout_item_comment.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_username.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_username.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_check.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\check.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_arrow_down_light.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\arrow_down_light.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_button_edit.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\button_edit.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_search.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\search.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_arrow_up_light.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\arrow_up_light.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_arrow_up_dark.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\arrow_up_dark.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_camera.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\camera.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_add.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\add.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_profile.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\profile.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\menu\\bottom_nav_menu.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_announce.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\announce.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\xml\\backup_rules.xml"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_back.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\back.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_search_bar.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\search_bar.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_bookmark.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\bookmark.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\font_roboto.ttf.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\font\\roboto.ttf"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_layout_item_comment.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\layout_item_comment.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\font_poppins.ttf.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\font\\poppins.ttf"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_filter.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\filter.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\button_background.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_item_loading.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\item_loading.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\font_poppins.ttf.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\font\\poppins.ttf"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\xml\\file_paths.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_activity_comment.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_comment.xml"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_search_bar.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\search_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_tab_indicator.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\tab_indicator.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\logo.png"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\font_poppins_semi.ttf.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\font\\poppins_semi.ttf"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_home.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\home.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_bot_navigation_dark.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\bot_navigation_dark.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_layout_item_user.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\layout_item_user.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_arrow_up.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\arrow_up.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_filter.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\filter.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_lock.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\lock.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_profile.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\profile.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_location.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\location.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\font_poppins_semi.ttf.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\font\\poppins_semi.ttf"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_fragment_notifications.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\fragment_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_comment_dark.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\comment_dark.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_email.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\email.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_comment.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\comment.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\menu_options_menu.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\menu\\options_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_person.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\person.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\menu_settings_menu.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\menu\\settings_menu.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\font_poppins_medium.ttf.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\font\\poppins_medium.ttf"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_add.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\add.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\navigation\\mobile_navigation.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_edit.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\edit.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_end.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\end.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_gallery.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\gallery.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_gallery.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\gallery.xml"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.bangkit.citisnap.app-merged_res-58:/layout_layout_item_post.xml.flat",
-        "source": "com.bangkit.citisnap.app-main-60:/layout/layout_item_post.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_bot_navigation_dark.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\bot_navigation_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_arrow_down_dark.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\arrow_down_dark.xml"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_fragment_notifications.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\fragment_notifications.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\color_vote_color.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\color\\vote_color.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\fragment_search.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_bookmark.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\bookmark.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_activity_username.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_username.xml"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.bangkit.citisnap.app-merged_res-58:/layout_fragment_profile.xml.flat",
-        "source": "com.bangkit.citisnap.app-main-60:/layout/fragment_profile.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_notification.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\notification.xml"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_send.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\send.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_activity_add_post.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_add_post.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_check.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\check.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_arrow_down.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\arrow_down.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_comment.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\comment.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_button_background.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\button_background.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_layout_item_comment.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\layout_item_comment.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_button_edit.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\button_edit.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_search.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\search.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_end.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\end.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_fragment_search.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\fragment_search.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_edit_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_person.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\person.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_location.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\location.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_settings.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\settings.xml"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_layout_item_post.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\layout_item_post.xml"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_camera.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\camera.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\menu_settings_menu.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\menu\\settings_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\fragment_profile.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_comment_dark.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\comment_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_fragment_recent.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\fragment_recent.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_bot_navigation.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\bot_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\layout_activity_detail_profile.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\layout\\activity_detail_profile.xml"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-58:\\drawable_email.xml.flat",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-60:\\drawable\\email.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_detail_profile.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_detail_profile.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\font_roboto.ttf.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\font\\roboto.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\font_poppins_medium.ttf.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\font\\poppins_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_card.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_settings.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_lock.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_back.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_nopostimage.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\nopostimage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_arrow_up_dark.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\arrow_up_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_notification.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_activity_add_post.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_add_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_arrow_down_dark.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\arrow_down_dark.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.bangkit.citisnap.app-main-64:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_layout_item_post.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\layout_item_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\layout_fragment_urgent.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\fragment_urgent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-merged_res-62:\\drawable_arrow_up_light.xml.flat",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\drawable\\arrow_up_light.xml"
     }
 ]

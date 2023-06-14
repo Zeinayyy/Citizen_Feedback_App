@@ -9,12 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager2.widget.ViewPager2;
 import com.bangkit.citisnap.R;
 import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.tabs.TabLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -30,23 +30,23 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ImageView logoImg;
 
   @NonNull
-  public final RecyclerView recycle;
-
-  @NonNull
-  public final SwipeRefreshLayout swipeRefresh;
+  public final TabLayout tabs;
 
   @NonNull
   public final Toolbar toolbar;
 
+  @NonNull
+  public final ViewPager2 viewPager;
+
   private FragmentHomeBinding(@NonNull CoordinatorLayout rootView, @NonNull AppBarLayout appbar,
-      @NonNull ImageView logoImg, @NonNull RecyclerView recycle,
-      @NonNull SwipeRefreshLayout swipeRefresh, @NonNull Toolbar toolbar) {
+      @NonNull ImageView logoImg, @NonNull TabLayout tabs, @NonNull Toolbar toolbar,
+      @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.appbar = appbar;
     this.logoImg = logoImg;
-    this.recycle = recycle;
-    this.swipeRefresh = swipeRefresh;
+    this.tabs = tabs;
     this.toolbar = toolbar;
+    this.viewPager = viewPager;
   }
 
   @Override
@@ -88,15 +88,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recycle;
-      RecyclerView recycle = ViewBindings.findChildViewById(rootView, id);
-      if (recycle == null) {
-        break missingId;
-      }
-
-      id = R.id.swipeRefresh;
-      SwipeRefreshLayout swipeRefresh = ViewBindings.findChildViewById(rootView, id);
-      if (swipeRefresh == null) {
+      id = R.id.tabs;
+      TabLayout tabs = ViewBindings.findChildViewById(rootView, id);
+      if (tabs == null) {
         break missingId;
       }
 
@@ -106,8 +100,14 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((CoordinatorLayout) rootView, appbar, logoImg, recycle,
-          swipeRefresh, toolbar);
+      id = R.id.view_pager;
+      ViewPager2 viewPager = ViewBindings.findChildViewById(rootView, id);
+      if (viewPager == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((CoordinatorLayout) rootView, appbar, logoImg, tabs, toolbar,
+          viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

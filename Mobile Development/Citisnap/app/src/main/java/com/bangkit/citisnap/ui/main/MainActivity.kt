@@ -3,16 +3,11 @@ package com.bangkit.citisnap.ui.main
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.bangkit.citisnap.R
 import com.bangkit.citisnap.databinding.ActivityMainBinding
-import com.bangkit.citisnap.fragments.home.HomeFragment
-import com.bangkit.citisnap.fragments.home.HomeViewModel
 import com.bangkit.citisnap.ui.login.LoginActivity
 import com.bangkit.citisnap.ui.register.UsernameRegisterActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -54,15 +49,6 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
 
         navView.setupWithNavController(navController)
-        binding.navView.setOnItemReselectedListener { menuitem ->
-            when (menuitem.itemId){
-                R.id.homeFragment ->{
-                    val viewModel = ViewModelProvider(this)[HomeViewModel::class.java]
-                    viewModel.getListPost()
-                }
-            }
-        }
-
     }
 
     override fun onBackPressed() {

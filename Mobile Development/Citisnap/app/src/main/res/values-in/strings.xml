@@ -39,5 +39,30 @@
     <string name="hint_post">Beritahu kami sesuatu!</string>
     <string name="post">Unggah</string>
     <string name="profile_pict"><![CDATA[https://firebasestorage.googleapis.com/v0/b/c23-pc676-capstone-project.appspot.com/o/profile_picture.png?alt=media&token=7fdc2193-9de5-4ad1-a312-0304541d6ebd]]></string>
-
+    <string name="thread">Utas</string>
+    <string name="description">Deskripsi</string>
+    <string name="vote_up">Suara Naik</string>
+    <string name="vote_down">Suara Turun</string>
+    <string name="vote">Suara</string>
+    <string name="leave_a_comment">Tinggalkan komentar</string>
+    <string name="send">KIRIM</string>
+    <string name="settings">Pengaturan</string>
+    <string name="edit_profile">Edit Profil</string>
+    <string name="be_the_first_to_comment">Jadilah yang pertama berkomentar</string>
+    <string name="tab_layout_urgent">Darurat</string>
+    <string name="tab_layout_recent">Terbaru</string>
+    <string name="must_be_resolved">Harus diselesaikan</string>
+    <string name="urgent">Darurat</string>
+    <string name="no_posts_yet">Belum ada postingan</string>
+    <string name="aspiration">Aspirasi</string>
+    <string name="good_aspiration">Aspirasi yang baik</string>
+    <string name="common">Biasa</string>
+    <string name="name">Nama</string>
+    <string name="bio">Biografi</string>
+    <string name="save_changes">Simpan Perubahan</string>
+    <string name="post_and_provide_feedback_to_the_government">Memposting dan Memberikan Umpan Balik kepada Pemerintah</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="logout">Keluar</string>
+    <string name="language">Bahasa</string>
+    <string name="coming_soon">Segera hadir</string>
 </resources>

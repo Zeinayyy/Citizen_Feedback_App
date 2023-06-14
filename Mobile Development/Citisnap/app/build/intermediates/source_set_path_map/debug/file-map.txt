@@ -1,61 +1,65 @@
 com.bangkit.citisnap.app-lifecycle-viewmodel-ktx-2.6.1-0 C:\Users\Iftah\.gradle\caches\transforms-3\0088ad819a9920d355d28cba12b56837\transformed\lifecycle-viewmodel-ktx-2.6.1\res
 com.bangkit.citisnap.app-savedstate-ktx-1.2.1-1 C:\Users\Iftah\.gradle\caches\transforms-3\05cb16e000ea57e5c35853d9d58cb697\transformed\savedstate-ktx-1.2.1\res
-com.bangkit.citisnap.app-navigation-runtime-2.5.3-2 C:\Users\Iftah\.gradle\caches\transforms-3\0a5f5a03c9506f28b3d3c40f573dee34\transformed\navigation-runtime-2.5.3\res
-com.bangkit.citisnap.app-startup-runtime-1.1.1-3 C:\Users\Iftah\.gradle\caches\transforms-3\0c7829c3f6879ae6ebe455051f6d44a9\transformed\startup-runtime-1.1.1\res
-com.bangkit.citisnap.app-navigation-runtime-ktx-2.5.3-4 C:\Users\Iftah\.gradle\caches\transforms-3\0de4dcd067338a0fa3235f01481269ab\transformed\navigation-runtime-ktx-2.5.3\res
-com.bangkit.citisnap.app-transition-1.4.1-5 C:\Users\Iftah\.gradle\caches\transforms-3\1975f37e3b16f1b15bbc369594cb611a\transformed\transition-1.4.1\res
-com.bangkit.citisnap.app-lifecycle-viewmodel-savedstate-2.6.1-6 C:\Users\Iftah\.gradle\caches\transforms-3\1c7a84b5f7d6a37e942283e7ddc4d115\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
-com.bangkit.citisnap.app-play-services-base-18.0.1-7 C:\Users\Iftah\.gradle\caches\transforms-3\226ed51d8e7ed511fc88b6412f6e0b38\transformed\play-services-base-18.0.1\res
-com.bangkit.citisnap.app-emoji2-views-helper-1.2.0-8 C:\Users\Iftah\.gradle\caches\transforms-3\23e195c8a30e519b8397bcb62c59cd0d\transformed\emoji2-views-helper-1.2.0\res
-com.bangkit.citisnap.app-glide-4.15.0-9 C:\Users\Iftah\.gradle\caches\transforms-3\25d32a8938d01ba0111209d2b480fc3d\transformed\glide-4.15.0\res
-com.bangkit.citisnap.app-play-services-auth-20.5.0-10 C:\Users\Iftah\.gradle\caches\transforms-3\2798b75aafa2d5d67e956197d057eb93\transformed\play-services-auth-20.5.0\res
-com.bangkit.citisnap.app-core-ktx-1.10.1-11 C:\Users\Iftah\.gradle\caches\transforms-3\29a4d67baeda86957f5600e3eef8ac10\transformed\core-ktx-1.10.1\res
-com.bangkit.citisnap.app-lifecycle-livedata-2.6.1-12 C:\Users\Iftah\.gradle\caches\transforms-3\29b5e7721859e80e8a3b329dbfcdb3ed\transformed\lifecycle-livedata-2.6.1\res
-com.bangkit.citisnap.app-profileinstaller-1.3.0-13 C:\Users\Iftah\.gradle\caches\transforms-3\2b87d527bd0458e6e4f6071f72b221bb\transformed\profileinstaller-1.3.0\res
-com.bangkit.citisnap.app-slidingpanelayout-1.2.0-14 C:\Users\Iftah\.gradle\caches\transforms-3\39f902c0e5a009ec51318bff6e9a4c26\transformed\slidingpanelayout-1.2.0\res
-com.bangkit.citisnap.app-browser-1.4.0-15 C:\Users\Iftah\.gradle\caches\transforms-3\3a27b315b686124a649d8497f5d651f4\transformed\browser-1.4.0\res
-com.bangkit.citisnap.app-lifecycle-viewmodel-2.6.1-16 C:\Users\Iftah\.gradle\caches\transforms-3\407ccfdb03feb007227a9989e977b291\transformed\lifecycle-viewmodel-2.6.1\res
-com.bangkit.citisnap.app-circleimageview-3.1.0-17 C:\Users\Iftah\.gradle\caches\transforms-3\40d4a95e557fedad60182f6cd2cc9551\transformed\circleimageview-3.1.0\res
-com.bangkit.citisnap.app-annotation-experimental-1.3.0-18 C:\Users\Iftah\.gradle\caches\transforms-3\41a4b3750594e6acdd3c8e1435e98779\transformed\annotation-experimental-1.3.0\res
-com.bangkit.citisnap.app-swiperefreshlayout-1.1.0-19 C:\Users\Iftah\.gradle\caches\transforms-3\4939f0e5794acd200f8db7a807a346ff\transformed\swiperefreshlayout-1.1.0\res
-com.bangkit.citisnap.app-window-1.0.0-20 C:\Users\Iftah\.gradle\caches\transforms-3\4c63f70f725810ebbfbb7a0ca9ebdd51\transformed\window-1.0.0\res
-com.bangkit.citisnap.app-lifecycle-livedata-core-2.6.1-21 C:\Users\Iftah\.gradle\caches\transforms-3\585e39f4c3d19b5486645fb7b401b1ae\transformed\lifecycle-livedata-core-2.6.1\res
-com.bangkit.citisnap.app-savedstate-1.2.1-22 C:\Users\Iftah\.gradle\caches\transforms-3\5e47d10b170c451c1119c51d2f497275\transformed\savedstate-1.2.1\res
-com.bangkit.citisnap.app-navigation-ui-ktx-2.5.3-23 C:\Users\Iftah\.gradle\caches\transforms-3\5fa9b5c83d80a0bfdfe77c4a39959bf8\transformed\navigation-ui-ktx-2.5.3\res
-com.bangkit.citisnap.app-navigation-ui-2.5.3-24 C:\Users\Iftah\.gradle\caches\transforms-3\69e55347de6e6ea1b7351f2c0b088cc0\transformed\navigation-ui-2.5.3\res
-com.bangkit.citisnap.app-appcompat-resources-1.6.1-25 C:\Users\Iftah\.gradle\caches\transforms-3\6ce3aac1ee3800700fed2cd52eadcdec\transformed\appcompat-resources-1.6.1\res
-com.bangkit.citisnap.app-cardview-1.0.0-26 C:\Users\Iftah\.gradle\caches\transforms-3\6d77591995ab51174f0b231bc0eec402\transformed\cardview-1.0.0\res
-com.bangkit.citisnap.app-navigation-common-2.5.3-27 C:\Users\Iftah\.gradle\caches\transforms-3\769c50b5b0f623f4753508069257ceb4\transformed\navigation-common-2.5.3\res
-com.bangkit.citisnap.app-lifecycle-process-2.6.1-28 C:\Users\Iftah\.gradle\caches\transforms-3\843542fc82c7a7bd152b40c77cf93018\transformed\lifecycle-process-2.6.1\res
-com.bangkit.citisnap.app-emoji2-1.2.0-29 C:\Users\Iftah\.gradle\caches\transforms-3\91410e40de59bff68d6a56a9d4ff2ae7\transformed\emoji2-1.2.0\res
-com.bangkit.citisnap.app-appcompat-1.6.1-30 C:\Users\Iftah\.gradle\caches\transforms-3\93c04a9a38f2d6c557294380fae91aad\transformed\appcompat-1.6.1\res
-com.bangkit.citisnap.app-lifecycle-runtime-2.6.1-31 C:\Users\Iftah\.gradle\caches\transforms-3\9474156dd7b0b876e410abf3fe55f73e\transformed\lifecycle-runtime-2.6.1\res
-com.bangkit.citisnap.app-drawerlayout-1.1.1-32 C:\Users\Iftah\.gradle\caches\transforms-3\9f81ca98a790c8ea8b7b0a07b63134b7\transformed\drawerlayout-1.1.1\res
-com.bangkit.citisnap.app-material-1.9.0-33 C:\Users\Iftah\.gradle\caches\transforms-3\9ff9f8887291681de90018a172ec549e\transformed\material-1.9.0\res
-com.bangkit.citisnap.app-fragment-ktx-1.5.4-34 C:\Users\Iftah\.gradle\caches\transforms-3\a439a4d1d1afcc64ee75b61b64849bd7\transformed\fragment-ktx-1.5.4\res
-com.bangkit.citisnap.app-play-services-basement-18.2.0-35 C:\Users\Iftah\.gradle\caches\transforms-3\a5db0ed5aff2725d4e1364da8b919372\transformed\play-services-basement-18.2.0\res
-com.bangkit.citisnap.app-activity-ktx-1.6.0-36 C:\Users\Iftah\.gradle\caches\transforms-3\a6a6e338449e6c976658041e36bad275\transformed\activity-ktx-1.6.0\res
-com.bangkit.citisnap.app-navigation-fragment-2.5.3-37 C:\Users\Iftah\.gradle\caches\transforms-3\ae457ecea244fcaa1c4c67e05c9b7c41\transformed\navigation-fragment-2.5.3\res
-com.bangkit.citisnap.app-navigation-fragment-ktx-2.5.3-38 C:\Users\Iftah\.gradle\caches\transforms-3\bcdc9b77f14f1f537b52bb17c4c0dee0\transformed\navigation-fragment-ktx-2.5.3\res
-com.bangkit.citisnap.app-navigation-common-ktx-2.5.3-39 C:\Users\Iftah\.gradle\caches\transforms-3\c2e05699db059df7ca1b82d84be7d0d9\transformed\navigation-common-ktx-2.5.3\res
-com.bangkit.citisnap.app-recyclerview-1.1.0-40 C:\Users\Iftah\.gradle\caches\transforms-3\c593c16f2d9308979f14e136bb8aa7a1\transformed\recyclerview-1.1.0\res
-com.bangkit.citisnap.app-lifecycle-livedata-core-ktx-2.6.1-41 C:\Users\Iftah\.gradle\caches\transforms-3\c8edeb941a685a7843dfe2f30cddc5e5\transformed\lifecycle-livedata-core-ktx-2.6.1\res
-com.bangkit.citisnap.app-core-1.10.1-42 C:\Users\Iftah\.gradle\caches\transforms-3\c98a9850e362f64278513f14d31529f7\transformed\core-1.10.1\res
-com.bangkit.citisnap.app-firebase-common-20.3.2-43 C:\Users\Iftah\.gradle\caches\transforms-3\d3fe6b926bc5ea6604f40cc3dc91f45e\transformed\firebase-common-20.3.2\res
-com.bangkit.citisnap.app-fragment-1.5.4-44 C:\Users\Iftah\.gradle\caches\transforms-3\e4cb45affc00d50c5b965484374b2030\transformed\fragment-1.5.4\res
-com.bangkit.citisnap.app-constraintlayout-2.1.4-45 C:\Users\Iftah\.gradle\caches\transforms-3\e990ff67b1a5994dda0083ba01660b7a\transformed\constraintlayout-2.1.4\res
-com.bangkit.citisnap.app-coordinatorlayout-1.1.0-46 C:\Users\Iftah\.gradle\caches\transforms-3\ea27c75fbaf4aab2df5c53bdee65c2c5\transformed\coordinatorlayout-1.1.0\res
-com.bangkit.citisnap.app-viewpager2-1.0.0-47 C:\Users\Iftah\.gradle\caches\transforms-3\f08554950bc896078f5eeb84928962c3\transformed\viewpager2-1.0.0\res
-com.bangkit.citisnap.app-lifecycle-livedata-ktx-2.6.1-48 C:\Users\Iftah\.gradle\caches\transforms-3\f3cb6c5ec843ddc0aea88e448359d983\transformed\lifecycle-livedata-ktx-2.6.1\res
-com.bangkit.citisnap.app-activity-1.6.0-49 C:\Users\Iftah\.gradle\caches\transforms-3\f6033bfa3d6b99bb64d4108d1ef7dde8\transformed\activity-1.6.0\res
-com.bangkit.citisnap.app-lifecycle-runtime-ktx-2.6.1-50 C:\Users\Iftah\.gradle\caches\transforms-3\fb482c79f456790d29f5f79d48976052\transformed\lifecycle-runtime-ktx-2.6.1\res
-com.bangkit.citisnap.app-core-runtime-2.2.0-51 C:\Users\Iftah\.gradle\caches\transforms-3\fdc5d657cba92358c4ab2fb772d5f8fb\transformed\core-runtime-2.2.0\res
-com.bangkit.citisnap.app-google-services-52 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\google-services\debug
-com.bangkit.citisnap.app-pngs-53 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\pngs\debug
-com.bangkit.citisnap.app-resValues-54 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\resValues\debug
-com.bangkit.citisnap.app-rs-55 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\rs\debug
-com.bangkit.citisnap.app-packageDebugResources-56 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.bangkit.citisnap.app-packageDebugResources-57 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.bangkit.citisnap.app-merged_res-58 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\intermediates\merged_res\debug
-com.bangkit.citisnap.app-debug-59 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\debug\res
-com.bangkit.citisnap.app-main-60 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\res
+com.bangkit.citisnap.app-startup-runtime-1.1.1-2 C:\Users\Iftah\.gradle\caches\transforms-3\0c7829c3f6879ae6ebe455051f6d44a9\transformed\startup-runtime-1.1.1\res
+com.bangkit.citisnap.app-navigation-ui-2.6.0-3 C:\Users\Iftah\.gradle\caches\transforms-3\0eba819857a8128370e94ca9322bee3a\transformed\navigation-ui-2.6.0\res
+com.bangkit.citisnap.app-transition-1.4.1-4 C:\Users\Iftah\.gradle\caches\transforms-3\1975f37e3b16f1b15bbc369594cb611a\transformed\transition-1.4.1\res
+com.bangkit.citisnap.app-lifecycle-viewmodel-savedstate-2.6.1-5 C:\Users\Iftah\.gradle\caches\transforms-3\1c7a84b5f7d6a37e942283e7ddc4d115\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.bangkit.citisnap.app-play-services-base-18.0.1-6 C:\Users\Iftah\.gradle\caches\transforms-3\226ed51d8e7ed511fc88b6412f6e0b38\transformed\play-services-base-18.0.1\res
+com.bangkit.citisnap.app-activity-ktx-1.6.1-7 C:\Users\Iftah\.gradle\caches\transforms-3\22715282324686aa3041d4c03e5d1edd\transformed\activity-ktx-1.6.1\res
+com.bangkit.citisnap.app-fragment-ktx-1.6.0-8 C:\Users\Iftah\.gradle\caches\transforms-3\22f0d019a075b133a135a7cb2d7207ae\transformed\fragment-ktx-1.6.0\res
+com.bangkit.citisnap.app-emoji2-views-helper-1.2.0-9 C:\Users\Iftah\.gradle\caches\transforms-3\23e195c8a30e519b8397bcb62c59cd0d\transformed\emoji2-views-helper-1.2.0\res
+com.bangkit.citisnap.app-glide-4.15.0-10 C:\Users\Iftah\.gradle\caches\transforms-3\25d32a8938d01ba0111209d2b480fc3d\transformed\glide-4.15.0\res
+com.bangkit.citisnap.app-play-services-auth-20.5.0-11 C:\Users\Iftah\.gradle\caches\transforms-3\2798b75aafa2d5d67e956197d057eb93\transformed\play-services-auth-20.5.0\res
+com.bangkit.citisnap.app-core-ktx-1.10.1-12 C:\Users\Iftah\.gradle\caches\transforms-3\29a4d67baeda86957f5600e3eef8ac10\transformed\core-ktx-1.10.1\res
+com.bangkit.citisnap.app-lifecycle-livedata-2.6.1-13 C:\Users\Iftah\.gradle\caches\transforms-3\29b5e7721859e80e8a3b329dbfcdb3ed\transformed\lifecycle-livedata-2.6.1\res
+com.bangkit.citisnap.app-profileinstaller-1.3.0-14 C:\Users\Iftah\.gradle\caches\transforms-3\2b87d527bd0458e6e4f6071f72b221bb\transformed\profileinstaller-1.3.0\res
+com.bangkit.citisnap.app-datastore-preferences-1.0.0-15 C:\Users\Iftah\.gradle\caches\transforms-3\30369b8e29e91317b2d4a53590a0b5db\transformed\datastore-preferences-1.0.0\res
+com.bangkit.citisnap.app-slidingpanelayout-1.2.0-16 C:\Users\Iftah\.gradle\caches\transforms-3\39f902c0e5a009ec51318bff6e9a4c26\transformed\slidingpanelayout-1.2.0\res
+com.bangkit.citisnap.app-browser-1.4.0-17 C:\Users\Iftah\.gradle\caches\transforms-3\3a27b315b686124a649d8497f5d651f4\transformed\browser-1.4.0\res
+com.bangkit.citisnap.app-lifecycle-viewmodel-2.6.1-18 C:\Users\Iftah\.gradle\caches\transforms-3\407ccfdb03feb007227a9989e977b291\transformed\lifecycle-viewmodel-2.6.1\res
+com.bangkit.citisnap.app-circleimageview-3.1.0-19 C:\Users\Iftah\.gradle\caches\transforms-3\40d4a95e557fedad60182f6cd2cc9551\transformed\circleimageview-3.1.0\res
+com.bangkit.citisnap.app-annotation-experimental-1.3.0-20 C:\Users\Iftah\.gradle\caches\transforms-3\41a4b3750594e6acdd3c8e1435e98779\transformed\annotation-experimental-1.3.0\res
+com.bangkit.citisnap.app-swiperefreshlayout-1.1.0-21 C:\Users\Iftah\.gradle\caches\transforms-3\4939f0e5794acd200f8db7a807a346ff\transformed\swiperefreshlayout-1.1.0\res
+com.bangkit.citisnap.app-window-1.0.0-22 C:\Users\Iftah\.gradle\caches\transforms-3\4c63f70f725810ebbfbb7a0ca9ebdd51\transformed\window-1.0.0\res
+com.bangkit.citisnap.app-activity-1.6.1-23 C:\Users\Iftah\.gradle\caches\transforms-3\564b6d8deb64fb472712b8c940b41050\transformed\activity-1.6.1\res
+com.bangkit.citisnap.app-lifecycle-livedata-core-2.6.1-24 C:\Users\Iftah\.gradle\caches\transforms-3\585e39f4c3d19b5486645fb7b401b1ae\transformed\lifecycle-livedata-core-2.6.1\res
+com.bangkit.citisnap.app-navigation-fragment-2.6.0-25 C:\Users\Iftah\.gradle\caches\transforms-3\593b501880f13ffed6abd61aa10958be\transformed\navigation-fragment-2.6.0\res
+com.bangkit.citisnap.app-savedstate-1.2.1-26 C:\Users\Iftah\.gradle\caches\transforms-3\5e47d10b170c451c1119c51d2f497275\transformed\savedstate-1.2.1\res
+com.bangkit.citisnap.app-appcompat-resources-1.6.1-27 C:\Users\Iftah\.gradle\caches\transforms-3\6ce3aac1ee3800700fed2cd52eadcdec\transformed\appcompat-resources-1.6.1\res
+com.bangkit.citisnap.app-cardview-1.0.0-28 C:\Users\Iftah\.gradle\caches\transforms-3\6d77591995ab51174f0b231bc0eec402\transformed\cardview-1.0.0\res
+com.bangkit.citisnap.app-lifecycle-process-2.6.1-29 C:\Users\Iftah\.gradle\caches\transforms-3\843542fc82c7a7bd152b40c77cf93018\transformed\lifecycle-process-2.6.1\res
+com.bangkit.citisnap.app-navigation-fragment-ktx-2.6.0-30 C:\Users\Iftah\.gradle\caches\transforms-3\86826a8b9fbd2c2ac290b9669976f3d1\transformed\navigation-fragment-ktx-2.6.0\res
+com.bangkit.citisnap.app-emoji2-1.2.0-31 C:\Users\Iftah\.gradle\caches\transforms-3\91410e40de59bff68d6a56a9d4ff2ae7\transformed\emoji2-1.2.0\res
+com.bangkit.citisnap.app-appcompat-1.6.1-32 C:\Users\Iftah\.gradle\caches\transforms-3\93c04a9a38f2d6c557294380fae91aad\transformed\appcompat-1.6.1\res
+com.bangkit.citisnap.app-lifecycle-runtime-2.6.1-33 C:\Users\Iftah\.gradle\caches\transforms-3\9474156dd7b0b876e410abf3fe55f73e\transformed\lifecycle-runtime-2.6.1\res
+com.bangkit.citisnap.app-paging-runtime-ktx-3.1.1-34 C:\Users\Iftah\.gradle\caches\transforms-3\957747cf8660ac7d93d4171c32171eb0\transformed\paging-runtime-ktx-3.1.1\res
+com.bangkit.citisnap.app-drawerlayout-1.1.1-35 C:\Users\Iftah\.gradle\caches\transforms-3\9f81ca98a790c8ea8b7b0a07b63134b7\transformed\drawerlayout-1.1.1\res
+com.bangkit.citisnap.app-material-1.9.0-36 C:\Users\Iftah\.gradle\caches\transforms-3\9ff9f8887291681de90018a172ec549e\transformed\material-1.9.0\res
+com.bangkit.citisnap.app-navigation-common-2.6.0-37 C:\Users\Iftah\.gradle\caches\transforms-3\a5d8b967e981e417020b03ce0af4a358\transformed\navigation-common-2.6.0\res
+com.bangkit.citisnap.app-play-services-basement-18.2.0-38 C:\Users\Iftah\.gradle\caches\transforms-3\a5db0ed5aff2725d4e1364da8b919372\transformed\play-services-basement-18.2.0\res
+com.bangkit.citisnap.app-navigation-runtime-ktx-2.6.0-39 C:\Users\Iftah\.gradle\caches\transforms-3\aa6108ca843d3c339674f2170f7c0e3b\transformed\navigation-runtime-ktx-2.6.0\res
+com.bangkit.citisnap.app-navigation-common-ktx-2.6.0-40 C:\Users\Iftah\.gradle\caches\transforms-3\ab37aa9c3ed5863ec64b104016cefb07\transformed\navigation-common-ktx-2.6.0\res
+com.bangkit.citisnap.app-navigation-ui-ktx-2.6.0-41 C:\Users\Iftah\.gradle\caches\transforms-3\c73c775a89652d77d9840f6abfeb47ae\transformed\navigation-ui-ktx-2.6.0\res
+com.bangkit.citisnap.app-lifecycle-livedata-core-ktx-2.6.1-42 C:\Users\Iftah\.gradle\caches\transforms-3\c8edeb941a685a7843dfe2f30cddc5e5\transformed\lifecycle-livedata-core-ktx-2.6.1\res
+com.bangkit.citisnap.app-core-1.10.1-43 C:\Users\Iftah\.gradle\caches\transforms-3\c98a9850e362f64278513f14d31529f7\transformed\core-1.10.1\res
+com.bangkit.citisnap.app-firebase-common-20.3.2-44 C:\Users\Iftah\.gradle\caches\transforms-3\d3fe6b926bc5ea6604f40cc3dc91f45e\transformed\firebase-common-20.3.2\res
+com.bangkit.citisnap.app-fragment-1.6.0-45 C:\Users\Iftah\.gradle\caches\transforms-3\d773c365dd38fef625fe49a6a153f895\transformed\fragment-1.6.0\res
+com.bangkit.citisnap.app-paging-runtime-3.1.1-46 C:\Users\Iftah\.gradle\caches\transforms-3\e12bd6d5940a76c3591778e3750ad5de\transformed\paging-runtime-3.1.1\res
+com.bangkit.citisnap.app-recyclerview-1.2.0-47 C:\Users\Iftah\.gradle\caches\transforms-3\e6db00cfed11061273aef93e579df85f\transformed\recyclerview-1.2.0\res
+com.bangkit.citisnap.app-constraintlayout-2.1.4-48 C:\Users\Iftah\.gradle\caches\transforms-3\e990ff67b1a5994dda0083ba01660b7a\transformed\constraintlayout-2.1.4\res
+com.bangkit.citisnap.app-coordinatorlayout-1.1.0-49 C:\Users\Iftah\.gradle\caches\transforms-3\ea27c75fbaf4aab2df5c53bdee65c2c5\transformed\coordinatorlayout-1.1.0\res
+com.bangkit.citisnap.app-datastore-1.0.0-50 C:\Users\Iftah\.gradle\caches\transforms-3\ed1e32375dc889879b91824576bf9868\transformed\datastore-1.0.0\res
+com.bangkit.citisnap.app-viewpager2-1.0.0-51 C:\Users\Iftah\.gradle\caches\transforms-3\f08554950bc896078f5eeb84928962c3\transformed\viewpager2-1.0.0\res
+com.bangkit.citisnap.app-lifecycle-livedata-ktx-2.6.1-52 C:\Users\Iftah\.gradle\caches\transforms-3\f3cb6c5ec843ddc0aea88e448359d983\transformed\lifecycle-livedata-ktx-2.6.1\res
+com.bangkit.citisnap.app-navigation-runtime-2.6.0-53 C:\Users\Iftah\.gradle\caches\transforms-3\f6a93fc4f47fc5726198bd44e5a98281\transformed\navigation-runtime-2.6.0\res
+com.bangkit.citisnap.app-lifecycle-runtime-ktx-2.6.1-54 C:\Users\Iftah\.gradle\caches\transforms-3\fb482c79f456790d29f5f79d48976052\transformed\lifecycle-runtime-ktx-2.6.1\res
+com.bangkit.citisnap.app-core-runtime-2.2.0-55 C:\Users\Iftah\.gradle\caches\transforms-3\fdc5d657cba92358c4ab2fb772d5f8fb\transformed\core-runtime-2.2.0\res
+com.bangkit.citisnap.app-google-services-56 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\google-services\debug
+com.bangkit.citisnap.app-pngs-57 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\pngs\debug
+com.bangkit.citisnap.app-resValues-58 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\resValues\debug
+com.bangkit.citisnap.app-rs-59 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\generated\res\rs\debug
+com.bangkit.citisnap.app-packageDebugResources-60 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.bangkit.citisnap.app-packageDebugResources-61 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.bangkit.citisnap.app-merged_res-62 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\build\intermediates\merged_res\debug
+com.bangkit.citisnap.app-debug-63 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\debug\res
+com.bangkit.citisnap.app-main-64 C:\Users\Iftah\Desktop\Study\Citizen_Feedback_App\Mobile Development\Citisnap\app\src\main\res
