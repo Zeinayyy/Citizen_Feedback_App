@@ -53,7 +53,7 @@ class EditProfileViewModel : ViewModel() {
             val storage = FirebaseStorage.getInstance()
             val currentUser = auth.currentUser
             val storageRef = storage.reference
-            val imagesRef: StorageReference = storageRef.child(username).child("post")
+            val imagesRef: StorageReference = storageRef.child(username).child("photoProfile")
             val fileName = "${System.currentTimeMillis()}.jpg"
             val imageRef = imagesRef.child(fileName)
             val uploadTask = imageRef.putFile(getUri)

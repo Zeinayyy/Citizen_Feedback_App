@@ -1,10 +1,12 @@
 package com.bangkit.citisnap.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bangkit.citisnap.databinding.LayoutItemCommentBinding
 import com.bangkit.citisnap.model.Comments
+import com.bangkit.citisnap.ui.detailProfile.DetailProfileActivity
 import com.bumptech.glide.Glide
 
 class CommentsAdapter (private val listComments: List<Comments>) : RecyclerView.Adapter<CommentsAdapter.CommentsViewHolder>() {
@@ -16,6 +18,7 @@ class CommentsAdapter (private val listComments: List<Comments>) : RecyclerView.
                 name.text = comments.name
                 description.text = comments.description
                 Glide.with(itemView.context).load(comments.profileImage).into(binding.profileImage)
+
             }
 
         }

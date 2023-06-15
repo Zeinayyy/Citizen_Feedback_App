@@ -15,10 +15,8 @@ import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
 import com.bangkit.citisnap.R
 import com.bangkit.citisnap.databinding.ActivityLoginBinding
-import com.bangkit.citisnap.preferences.Preferences
 import com.bangkit.citisnap.ui.main.MainActivity
 import com.bangkit.citisnap.ui.register.UsernameRegisterActivity
-import com.google.android.play.integrity.internal.c
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -81,7 +79,9 @@ class LoginActivity : AppCompatActivity() {
 
     private fun updateUI(state: Boolean) {
         if (state) {
-            startActivity(Intent(this@LoginActivity, MainActivity::class.java))
+            val intent = Intent(this@LoginActivity, MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)
             finish()
         }
     }

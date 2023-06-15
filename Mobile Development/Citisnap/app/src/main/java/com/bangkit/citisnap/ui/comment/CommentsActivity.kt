@@ -16,6 +16,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bangkit.citisnap.R
 import com.bangkit.citisnap.databinding.ActivityCommentBinding
+import com.bangkit.citisnap.ui.detailProfile.DetailProfileActivity
 import com.bangkit.citisnap.ui.login.LoginActivity
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.ktx.auth
@@ -25,6 +26,7 @@ class CommentsActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityCommentBinding
     private lateinit var commentsViewModel: CommentsViewModel
+    private var name : String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -87,7 +89,19 @@ class CommentsActivity : AppCompatActivity() {
             commentsViewModel.votesData(false, postId)
         }
 
+        if (currentUser == null){
+            binding.bottomNav.visibility = View.GONE
+        }
+
+
+
         addTextChangeListener(binding.comment, binding.send)
+
+        binding.profileImage.setOnClickListener {
+            val intent = Intent(this, DetailProfileActivity::class.java)
+            intent.putExtra("username", name)
+            startActivity(intent)
+        }
 
 
     }
@@ -119,7 +133,7 @@ class CommentsActivity : AppCompatActivity() {
     }
 
     private fun dataPost(listData: List<String>){
-        val name = listData[0]
+        name = listData[0]
         val desc = listData[1]
         val photoProf = listData[2]
         val votes = listData[4]

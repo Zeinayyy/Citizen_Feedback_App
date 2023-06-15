@@ -51,6 +51,7 @@ class DetailProfileActivity : AppCompatActivity() {
             }
         }
 
+
     }
 
     private fun getDataUser(data : List<String>){

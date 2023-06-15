@@ -20,16 +20,12 @@
         "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "com.bangkit.citisnap.app-mergeDebugResources-61:/layout/activity_add_post.xml",
-        "source": "com.bangkit.citisnap.app-main-64:/layout/activity_add_post.xml"
+        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-61:\\layout\\activity_comment.xml",
+        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_comment.xml"
     },
     {
         "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-61:\\layout\\activity_add_post.xml",
         "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_add_post.xml"
-    },
-    {
-        "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-61:\\layout\\activity_comment.xml",
-        "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\activity_comment.xml"
     },
     {
         "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-61:\\layout\\activity_register.xml",
@@ -70,6 +66,10 @@
     {
         "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-61:\\layout\\fragment_search.xml",
         "source": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-main-64:\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "com.bangkit.citisnap.app-mergeDebugResources-61:/layout/activity_login.xml",
+        "source": "com.bangkit.citisnap.app-main-64:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\Iftah\\.gradle\\daemon\\7.5\\com.bangkit.citisnap.app-mergeDebugResources-61:\\layout\\activity_edit_profile.xml",
